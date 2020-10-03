@@ -6,6 +6,19 @@
         <script src="js/jquery-3.5.1.min.js"></script>
 
 <style>
+.contentt {
+  padding: 16px;
+}
+
+.stickyy {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickyy + .contentt {
+  padding-top: 102px;
+}
 
 
 .navbar2 {
@@ -79,7 +92,7 @@
 <body>
 
 <br>
-<div class="navbar2">
+<div class="navbar2" id="myHeaderr">
   <div class="dropdown2">
     <a href="#">Logo</a>
     <a href="index.php">Home</a>
@@ -90,6 +103,23 @@
     <a href="contact_us.php">Contact Us</a>
 </div>
   </div> 
+
+<!--
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeaderr");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("stickyy");
+  } else {
+    header.classList.remove("stickyy");
+  }
+}
+</script>
+-->
 
 </body>
 </html>
