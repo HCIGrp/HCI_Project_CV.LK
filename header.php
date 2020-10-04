@@ -17,18 +17,11 @@
 <div class="col-sm-2">
 <img src="assets/images/logo.png" alt="Logo" width="100px" height="75px"> 
 </div>
-<div class="col-sm-2">
-      sdfsdf
+<div class="col-sm-8">
+
+<img src="assets/images/header_banner.jpg" alt="Banner" > 
 </div>
-<div class="col-sm-2">
-      sdfsdf
-</div>
-<div class="col-sm-2">
-      sdfsdf
-</div>
-<div class="col-sm-2">
-      sdfsdf
-</div>
+
 <div class="col-sm-2 ">
 
 
