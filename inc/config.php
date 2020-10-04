@@ -13,7 +13,7 @@
 	}	
 	else
 	{
-		//echo  '<p style="color:red;">'. ("connected successfully !!") .'</p>';
+		echo  '<p style="color:red;">'. ("connected successfully !!") .'</p>';
 	}
 
 ?>
