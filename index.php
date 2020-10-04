@@ -53,17 +53,19 @@ include("./inc/config.php");
                
 
                 if ($result->num_rows > 0) {
+                    
+
                     $count = 1;
 
                     while ($row = $result->fetch_assoc()) {
 
                 ?>
-                
+             
                       
 
                         <?php
                             if ($count <= 4) {
-                                echo $count;
+                               
                             ?>
 
                         <td>
@@ -72,7 +74,9 @@ include("./inc/config.php");
                      
                        
                        <?php 
-                               if($count == 4){ ?>
+                               if($count == 4){ 
+                                $count = 0;
+                                   ?>
 
                                </tr>
                              <?php   } 
@@ -81,21 +85,14 @@ include("./inc/config.php");
 
 
 
-<?php }else{ ?>
-
-
-  
-     
-        <td>  <?php echo $row['description'] ?>  </td>  
-
-
-<?php }?>
+<?php } ?>
 
 
 
             <?php
           
             $count ++;
+         
 
                     }
                 } else {
