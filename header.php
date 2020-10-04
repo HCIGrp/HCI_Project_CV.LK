@@ -8,13 +8,47 @@
         <link rel = "stylesheet" href="css/navbar.css">
 
 
-
-
-
 </head>
 <body>
 
-<br>
+
+<div class="container-fluid">
+<div class="row header">
+<div class="col-sm-2">
+<img src="assets/images/logo.png" alt="Logo" width="100px" height="75px"> 
+</div>
+<div class="col-sm-2">
+      sdfsdf
+</div>
+<div class="col-sm-2">
+      sdfsdf
+</div>
+<div class="col-sm-2">
+      sdfsdf
+</div>
+<div class="col-sm-2">
+      sdfsdf
+</div>
+<div class="col-sm-2 ">
+
+
+<div class="Login_Button_Div">
+    <button type="button"  class="btn btn-primary float-right"> Login</button>
+    <button type="button"  class="btn btn-primary float-right" > SignUp</button>
+
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
 <div class="navbar2" id="myHeaderr">
   <div class="dropdown2">
     <a href="#">Logo</a>
