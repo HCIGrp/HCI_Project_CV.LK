@@ -54,6 +54,8 @@
 <button class="btn btn-info" type="submit" name="view" onclick="location.href='vacancy_details.php'" align-items="center;" >View Vacancies</button>
 
 </form>
+<?php include('footer1.php'); ?>
 
 </body>
+
 </html>

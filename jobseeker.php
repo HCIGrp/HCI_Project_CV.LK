@@ -277,10 +277,10 @@ Upload Your CV in the preffered position</p>
 
   </tr>
 </table>
-
+<br><br><br>
    
 
   
-  
+<?php include('footer1.php'); ?>
 </body>
 </html>

@@ -113,6 +113,7 @@
 
 </tr>
 </table>
+<?php include('footer1.php'); ?>
 
 </body>
 </html>
