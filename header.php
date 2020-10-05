@@ -39,20 +39,41 @@
 </div>
 </div>
 
-
-
-
-<div class="navbar2" id="myHeaderr">
-  <div class="dropdown2">
+  <div class="navbar2" id="myTopnav">
     <a href="#">Logo</a>
     <a href="index.php">Home</a>
     <a href="jobseeker.php">Job Seekers</a>
-    <a href="All_vacancy.php">All Vacancy</a>
-    <a href="#">Foreign Vacancy</a>
-    <a href="vacancy_post.php">Post Vacancy</a>
-    <a href="contact_us.php">Contact Us</a>
+    <div class="dropdown2">
+    <button class="dropbtn2">Vacancies 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown2-content">
+      <a href="All_vacancy.php">Local</a>
+      <a href="#">Government</a>
+      <a href="#">Foreign</a>
+    </div>
+  </div>
+  <a href="vacancy_post.php">Post Vacancy</a>
+  <a href="#">Employers</a>
+  <a href="#">Promotions</a>
+  <a href="#">Headhunter Team</a>
+  <a href="contact_us.php">Contact</a>
+  <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
   </div> 
+
+  <!--Make Responsive header -->
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar2") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar2";
+  }
+}
+</script>
 
 <!--
   <script>
@@ -73,51 +94,4 @@ function myFunction() {
 
 </body>
 </html>
-
-
-
-
-<!--
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Company Logo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only"> </span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="jobseeker.php">Job Seekers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="All_vacancy.php">All Vacancy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Foreign Vacancy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="vacancy_post.php">Post Vacancy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-
-
-
-
-    </ul>
-    <span class="navbar-text">
-      test
-    </span>
-  </div>
-</nav>
-
--->
-
 
