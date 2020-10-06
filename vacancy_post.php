@@ -11,7 +11,7 @@
         <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
         <script src="js/jquery-3.5.1.min.js"></script>
     </head>
-<body style="background-color: #EDC7B7;">
+<body style="background-color:;">
 <?php include('header.php'); ?>
 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
@@ -54,8 +54,8 @@
 <button class="btn btn-info" type="submit" name="view" onclick="location.href='vacancy_details.php'" align-items="center;" >View Vacancies</button>
 
 </form>
-<?php include('footer1.php'); ?>
 
+<?php include('footer1.php'); ?>
 </body>
 
 </html>

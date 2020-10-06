@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/contact.css" />
 
 </head>
-<?php  include 'header.php';?>
 <body>
+<?php  include 'header.php';?>
 
 
   

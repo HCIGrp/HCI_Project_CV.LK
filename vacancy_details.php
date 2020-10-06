@@ -9,18 +9,16 @@
 <!DOCTYPE html>
 <html>
     <head>   
-        <title>Published Information</title>
+        <title>Published vacancies</title>
  <!-- Bootstrap CSS -->
  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 <link rel='stylesheet' type='text/css' href='css/vacancy.css' />
 <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
 <script src="js/jquery-3.5.1.min.js"></script>
 </head>
-<body style="background-color:#EDC7B7;">
+<body style="background-color:;">
 <?php include('header.php'); ?>
 
-</body>
-</html>
 
 <?php if (isset($_SESSION['message'])): ?>
 	<div class="msg">
@@ -106,3 +104,7 @@
 
 
 </script>
+
+<?php include('footer1.php'); ?>
+</body>
+</html>

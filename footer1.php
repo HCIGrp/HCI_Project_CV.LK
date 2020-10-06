@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="footer, address, phone, icons" />
 
-	<title>Responsive Footer</title>
 
 	<link rel="stylesheet" href="style1.css">
 	
@@ -59,7 +58,7 @@
 			<div class="footer-right">
 				<p class="footer-company-about">
                 <span>About the company</span>
-	Most popular online job site in Sri Lanka for<br> jobs, careers, recruitment and employment<br> &amp; SEO Learner.
+	Most popular online job site in Sri Lanka for jobs, careers, recruitment and employment &amp; SEO Learner.
 		</p><br>
 				<div class="footer-icons">
 					
