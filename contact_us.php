@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="css/contact.css" />
 
 </head>
-<?php  include 'header.php';?>
 <body>
+<?php  include 'header.php';?>
 
+
+  
 
 <div class="container-fluid">
     <div class="row">
@@ -52,12 +54,7 @@
         </div>
     </div>
 
-</div>
 
+<?php include('footer1.php'); ?>
 </body>
-
-<?php  include 'footer.php';?>
-
-
-
 </html>
