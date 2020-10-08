@@ -48,7 +48,7 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown2-content">
-      <a href="All_vacancy.php">Local</a>
+      <a href="All_vacancy.php">All Vacancies</a>
       <a href="#">Government</a>
       <a href="#">Foreign</a>
     </div>

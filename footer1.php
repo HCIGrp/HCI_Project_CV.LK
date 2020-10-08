@@ -14,6 +14,8 @@
 
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 
+
+
 </head>
 	<body>
 		
@@ -64,10 +66,11 @@
 					
 					<a class="fcbk" href="https://www.facebook.com/CVLK-279364705498518"><i class="fa fa-facebook" ></i></a>
 					<a class="twtr" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.cv.lk%2F&ref_src=twsrc%5Etfw&screen_name=cvlkjobs&tw_p=followbutton"><i class="fa fa-twitter" ></i></a>
-					<a class="gplus" href="#"><i class="fa fa-google-plus" ></i></a>
+					<a class="gplus" href="#"><i class="fab fa-google-plus-g" ></i></a>
 					<a class="lkdn" href="https://www.linkedin.com/company/cv/about/"><i class="fa fa-linkedin" ></i></a>
 					<a class="ytb" href="#"><i class="fa fa-youtube" ></i></a>
 			</div>
+
 		</footer>
 	</body>
 </html>
