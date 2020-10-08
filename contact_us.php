@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -32,19 +32,19 @@
 
         <div class="card-body">
                     <h5 class="card-title">Contact Us</h5>
-                    <label for="mobile">Mobile : +94 70 134 56 754 </label>
+                    <label for="mobile">Mobile :</label> +94 70 134 56 754 
                     <br>                       
-                    <label>+94 71 432 89 802 </label>
+                    +94 71 432 89 802
                     <br>        
-                    <label for="email" >Email : info@cv.lk </lable>
+                    <label for="email" >Email : </lable> info@cv.lk 
                     <br>
-                    <label>ads@cv.lk</label>
+                    ads@cv.lk
                     <br>
-                    <label for="reg_no">Address  : NO 176, 5th floor,
+                    <label for="reg_no">Address :</label>NO 176, 5th floor,
                         <br> WARD CITY COMPLEX,
                         <br> Queen Marry Road,
                         <br> Gampaha 
-                    </label>
+                    
 
 </div>
 
