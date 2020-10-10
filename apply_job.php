@@ -77,7 +77,7 @@
 
 </body>
 
-<?php  include 'footer1.php';?>
+<?php include('footer1.php'); ?>
 
 
 

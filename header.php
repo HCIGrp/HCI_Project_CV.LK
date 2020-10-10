@@ -50,7 +50,7 @@
     <div class="dropdown2-content">
       <a href="All_vacancy.php">All Vacancies</a>
       <a href="#">Government</a>
-      <a href="#">Foreign</a>
+      <a href="Forieng_vacancy.php">Foreign</a>
     </div>
   </div>
   <a href="vacancy_post.php">Post Vacancy</a>
