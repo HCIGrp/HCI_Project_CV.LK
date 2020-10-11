@@ -2,6 +2,7 @@
 .container-fluid {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .card {
@@ -9,6 +10,8 @@
     width: 60%;
     margin: 20px;
     background-color: #f0f0f0;
+    color: black;
+    border-color: black;
 }
 
 .card-img-top{
@@ -25,5 +28,7 @@
     margin: 20px;
     padding: 20px;
 }
+
+
 
 

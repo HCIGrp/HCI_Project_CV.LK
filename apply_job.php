@@ -61,7 +61,7 @@
                  <span class="input-group-btn" >
                      <a href="apply_job_form.php" type="butoon" class="btn btn-outline-primary">Apply</a>
                      <a href="#" type="butoon" class="btn btn-outline-dark" onclick="window.print()">Print</a>
-                     <a href="#" type="butoon" class="btn btn-warning">Close</a>
+                     <a href="Forieng_vacancy.php" type="butoon" class="btn btn-warning">Close</a>
                  </span>
                  
               
