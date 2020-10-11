@@ -158,7 +158,7 @@ Upload Your CV in the preffered position</p>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown1-content">
-      <a href="#">Manager & Above</a>
+      <a href="apply_form.php">Manager & Above</a>
       <a href="#">Executive & Above</a>
       <a href="#">Suitable Post</a>
     </div>
