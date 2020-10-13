@@ -10,14 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
 
 </head>
 <body>
 <?php  include 'header.php';?>
-
-
-  
 
 <div class="container-fluid">
     <div class="row">
@@ -34,15 +31,16 @@
 
         <div class="card-body">
                     <h5 class="card-title">Contact Us</h5>
-                    <label for="mobile">Mobile :</label> +94 70 134 56 754 
-                    <br>                       
-                    +94 71 432 89 802
+                    <label for="mobile" class="dis">Mobile :</label>
+                             +94 70 134 56 754 
+                         <br>+94 71 432 89 802
                     <br>        
-                    <label for="email" >Email : </lable> info@cv.lk 
-                    <br>
-                    ads@cv.lk
-                    <br>
-                    <label for="reg_no">Address :</label>NO 176, 5th floor,
+                    <label for="email" class="dis">Email : </lable> 
+                            info@cv.lk 
+                        <br>ads@cv.lk
+                        <br>
+                    <label for="reg_no" class="dis">Address :</label> 
+                             NO 176, 5th floor,
                         <br> WARD CITY COMPLEX,
                         <br> Queen Marry Road,
                         <br> Gampaha 
@@ -55,6 +53,7 @@
     </div>
 
 
-<?php include('footer1.php'); ?>
 </body>
+
+<?php include('footer1.php'); ?>
 </html>

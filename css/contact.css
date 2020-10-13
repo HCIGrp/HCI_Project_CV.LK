@@ -1,3 +1,4 @@
+/*
 .container-fluid {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -6,24 +7,19 @@
 
 #card1{
     margin-top: 30px;
-    width: 30%;
-    left: 12cm;
-    border-color: black;
+    width: 45%;
+    left: 27%;
     padding: 0.9%;
-    border-radius: 5%;
-    background-color: #f0f0f0;
+    border-radius: 1.5%;
     border-width: 0.9px;
 }
 
 #card2{
     margin-top: 30px;
-    width: 30%;
-    left: 12cm;
-    border-radius: 06%;
-    border-color:black;
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
     border-style: solid;
-    border-width: 10px;
-    background-color: #f0f0f0;
     border-width: 0.9px;
 }
 
@@ -33,5 +29,60 @@
 }
 
 label{
-    font-style: italic;
+}
+*/
+
+.container-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color:#fffcfc;
+}
+
+/*
+#card1{
+    margin-top: 30px;
+    width: 45%;
+    left: 27%;
+    padding: 0.1%;
+    border-radius: 1.5%;
+    border-width: 0.9px;
+}
+
+#card2{
+    margin-top: 30px;
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
+    border-style: solid;
+    border-width: 0.9px;
+    border: none;
+    font-size:larger;
+    background-color:#fafaff
+}
+*/
+
+#card1{
+    margin-top: 30px;
+    width: 45%;
+    left: 27%;
+    padding: 0.6%;
+    border-radius: 1.5%;
+    border-width: 0.1%;
+}
+
+#card2{
+    margin-top: 30px;
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
+    border-style: solid;
+    border-width: 0.9px;
+    border-color:yellowgreen;
+    font-size:larger;
+    background-color:#fafaff;
+}
+.card-title{
+    color: blue;
+    font-size: 30px;
 }
