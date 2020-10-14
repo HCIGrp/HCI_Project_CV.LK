@@ -70,12 +70,10 @@
 
 </div>
 
+
+<?php include('footer1.php'); ?>
+
 </div>
 
 </body>
-
-<?php  include 'footer1.php';?>
-
-
-
 </html>

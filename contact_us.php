@@ -31,6 +31,7 @@
 
         <div class="card-body">
                     <h5 class="card-title">Contact Us</h5>
+                    <hr>
                     <label for="mobile" class="dis">Mobile :</label>
                              +94 70 134 56 754 
                          <br>+94 71 432 89 802
@@ -52,8 +53,8 @@
         </div>
     </div>
 
-
+    <?php include('footer1.php'); ?>
+</div>
 </body>
 
-<?php include('footer1.php'); ?>
 </html>

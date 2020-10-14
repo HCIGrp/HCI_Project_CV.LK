@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-sm-12">
 
-            <form class="example" action="Forieng_vacancy.php" >
+            <form class="search" action="Forieng_vacancy.php" >
              <input type="text" id="myInput" onkeyup="myFunction()" placeholder="   Search.." name="search2"  class="fa fa-search" >        
             </form>
        
@@ -109,8 +109,6 @@
 
 </body>
 
-<?php include 'footer1.php'; ?>
-
-
+<?php include('footer1.php'); ?>
 
 </html>

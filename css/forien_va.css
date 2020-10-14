@@ -1,8 +1,10 @@
 .container-fluid{
     margin-top: 10px;
+    background-color: #f6f6f6;
+background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
 }
 
-form.example input[type=text] {
+form.search input[type=text] {
     height: 40px;
     font-size: 17px;
     float: left;
@@ -16,34 +18,17 @@ form.example input[type=text] {
     border-color: #3131358a;
 }
 
-form.example::after {
+#myInput:hover{
+  background-color: #f1f2f6;
+background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+
+}
+
+form.search::after {
     content: "";
     clear: both;
     display: table;
   }
-
-  table.table1 {
-    border-collapse: collapse;
-    width: 100%;
-    background-color: #313135;
-  }
-
-table.table1 th {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    background-color: #313135;
-
-  }
-
-table.table1 td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    background-color: #313135;
-
-  }
-
   
 table.table2 {
     border-collapse: collapse;
@@ -65,4 +50,9 @@ table.table2 tr:nth-child(even){background-color: #f2f2f2}
 table.table2 th {
     background-color: #47445c;
     color: white;
+  }
+
+  table.table2 tr:hover{
+    background-color: #70a1ff;
+  background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%);
   }
