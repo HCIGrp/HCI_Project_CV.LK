@@ -12,13 +12,18 @@
 
     <link rel="stylesheet" href="css/form.css" />
     <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bg.css"/>
+    <script type='text/javascript' src="js/back_2top.js"></script>   
+
 
 </head>
 <?php  include 'header.php';?>
+<?php include('feedback-btn.php'); ?>
+
 <body>
 
 
-<div class="container-fluid">
+<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');">
     <div class="row">
     <div class="col-sm-12" id="col_2">
             <div class="card text-center" >
@@ -50,7 +55,7 @@
 
                 <br>
 
-                <input id="btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary">
+                <input id="btnSave" name="btnSave" type="button" value="Send" class="btn btn-primary">
             
             </div>
         
@@ -74,6 +79,7 @@
 <?php include('footer1.php'); ?>
 
 </div>
+<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 </body>
 </html>
