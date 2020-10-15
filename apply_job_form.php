@@ -11,14 +11,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <link rel='stylesheet' type='text/css' href='css/bg.css'/>
+    <script type='text/javascript' src="js/back_2top.js"></script>   
     <script src="js/main.js"></script>
 
 </head>
 <?php  include 'header.php';?>
+<?php include('feedback-btn.php'); ?>
+
 <body>
 
 
-<div class="container-fluid">
+<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');">
     <div class="row">
     <div class="col-sm-12" id="col_2">
             <div class="card text-center" >
@@ -31,11 +35,7 @@
  
             <div class="card-body" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"> 
     
-<<<<<<< HEAD
                 <h5 class="card-title">Consolidated Printing (Pvt) Ltd</h5>
-=======
-                <h5 class="card-title" style="font-size: 25px;">Consolidated Printing Pvt Ltd</h5>
->>>>>>> f6a19c9703f1c7c5b78df0805ae15b02501c191a
 
                 <label for="job_position">Job Position : Accountant </label>
                 <br>        
@@ -96,6 +96,7 @@
 <?php include('footer1.php'); ?>
 
 </div>
+<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 </body>
 

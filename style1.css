@@ -38,7 +38,11 @@ header span{
 /* The footer is fixed to the bottom of the page */
 
 footer{
+<<<<<<< HEAD
 /*	position: fixed;	*/
+=======
+	/*position: fixed;*/
+>>>>>>> 1af6cf55f88121cb7f0bb13f3362a228bc3d720c
 	bottom: 0;
 }
 
