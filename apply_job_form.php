@@ -31,7 +31,11 @@
  
             <div class="card-body" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"> 
     
+<<<<<<< HEAD
+                <h5 class="card-title">Consolidated Printing (Pvt) Ltd</h5>
+=======
                 <h5 class="card-title" style="font-size: 25px;">Consolidated Printing Pvt Ltd</h5>
+>>>>>>> f6a19c9703f1c7c5b78df0805ae15b02501c191a
 
                 <label for="job_position">Job Position : Accountant </label>
                 <br>        
