@@ -31,7 +31,7 @@
  
             <div class="card-body">
     
-                <h5 class="card-title">Consolidated Printing Pvt Ltd</h5>
+                <h5 class="card-title">Consolidated Printing (Pvt) Ltd</h5>
 
                 <label for="job_position">Job Position : Accountant </label>
                 <br>        
