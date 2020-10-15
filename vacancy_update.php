@@ -7,8 +7,8 @@
 		$Id = $_GET['edit'];
 		$update = true;
 		$record = mysqli_query($db, "SELECT * FROM vacancy_ad WHERE Id=$Id");
-
-		if (count($record) == 1 ) {
+        
+		if (count(array($record)) == 1 ) {
 			$n = mysqli_fetch_array($record);
 			$Position = $n['Position'];
             $Opendate = $n['Opendate'];
@@ -27,6 +27,7 @@
      <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
      <!--   <link rel='stylesheet' type='text/css' href='css/vacancy.css'/>     -->
         <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
+        <link rel='stylesheet' type='text/css' href='css/bg.css'/>
         <script src="js/jquery-3.5.1.min.js"></script>
 
         <!-- Added for validation part  -->
@@ -71,11 +72,16 @@
     bottom: 25px;
     right: 25px;
     display: none;
+    opacity: 0.8;
+    transition: 0.3s;
 }
+.back-to-top:hover {opacity: 1}
+
 </style>
 </head>
-<body style="background-color:;">
+<body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php include('header.php'); ?>
+<?php include('feedback-btn.php'); ?>
 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
 <div class="container mt-5">
@@ -134,7 +140,7 @@
     </div>
 </div>
 <!--back to top -->
-<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:royalblue' role="button"><i class="fas fa-chevron-up"></i></a>
+<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
   
 <?php include('footer1.php'); ?>
 

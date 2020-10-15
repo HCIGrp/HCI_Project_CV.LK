@@ -1,3 +1,4 @@
+/*
 table.table1 {
     border-collapse: collapse;
     width: 100%;
@@ -23,7 +24,7 @@ table.table1 td {
   
 table.table2 {
     border-collapse: collapse;
-    width: 100%;
+    width: 85%;
   }
   
 table.table2 th {
@@ -42,3 +43,78 @@ table.table2 th {
     background-color: #47445c;
     color: white;
   }
+*/
+
+/* default table css*/  
+
+table.default {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+ /* color: white; /* newly added field */
+}
+
+table.default tr {
+    border-bottom: 1px solid  #dfdfdf;
+}
+
+table.default th {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+table.default td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+table.default th {
+    background: #1e1d1f;
+    color: white;
+}
+
+/*
+table.default tr:hover {
+    background: #d8cb5a; /*newly updated  
+}
+*/
+
+/* specific table css*/  
+
+table.table3 {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: left;
+/* color: white; /* newly added field */
+}
+
+table.table3 tr {
+  border-bottom: 1px solid  #dfdfdf;
+}
+
+table.table3 th {
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+table.table3 td {
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+table.table3 th {
+  background: #1e1d1f;
+  color: white;
+}
+
+/*
+table.table3 tr:hover {
+    /*  background: #d8cb5a; /*newly updated 
+}
+*/

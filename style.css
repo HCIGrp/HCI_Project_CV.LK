@@ -1,5 +1,5 @@
 
-/** code by webdevtrick ( https://webdevtrick.com ) **/
+/** code by webdevtrick ( https://webdevtrick.com ) *
 body {
 	margin: 0;
 	padding: 0;
@@ -184,7 +184,7 @@ footer{
 
 .page-wrap {
     min-height: 100%;
-    /* equal to footer height */
+    /* equal to footer height *
       margin-bottom: -142px; 
   }
   .page-wrap:after {
@@ -192,10 +192,11 @@ footer{
     display: block;
   }
   .footer-distributed, .page-wrap:after {
-    /* .push must be the same height as footer */
+    /* .push must be the same height as footer *
       height: 142px; 
   }
 
+*/
 
 
 

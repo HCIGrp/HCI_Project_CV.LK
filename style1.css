@@ -73,7 +73,7 @@ footer{
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 30px 'normal', normal;	/*36*/
 	margin: 0;
 }
 
@@ -84,7 +84,7 @@ footer{
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color: #00FEDE;
 }
 
 /* Footer links */
@@ -105,13 +105,13 @@ footer{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
-	margin: 0;
+	margin: 0px;
 }
 
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 35%;	/*35*/
 }
 
 
@@ -148,7 +148,7 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color: #5383d3;
+	color:#00FEDE;
 	text-decoration: none;;
 }
 
@@ -184,8 +184,9 @@ footer{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color: darkgrey;
-/*	background-color:  #33383b;  */
+/*	background-color: darkgrey;
+	background-color:  #33383b;  */
+	background-color:  white;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -255,22 +256,46 @@ footer{
     transition:.5s;
 }
 
+.footer-distributed .footer-icons a.fcbk{
+	color:  #3b5998;
+}
+
 .footer-distributed .footer-icons a.fcbk:hover{
 	background-color:  #3b5998;
 	color: white;
 }
-.footer-distributed .footer-icons a.twtr:hover{
+
+.footer-distributed .footer-icons a.twtr{	/*.footer-distributed .footer-icons a.twtr:hover*/
+	color:  #00B6F1;
+}
+
+.footer-distributed .footer-icons a.twtr:hover{	
 	background-color:  #00B6F1;
 	color: white;
 }
+
+.footer-distributed .footer-icons a.gplus{
+	color: #dd4b39;
+}
+
 .footer-distributed .footer-icons a.gplus:hover{
-	background-color: #dd4b39;
+	background-color:  #dd4b39;
 	color: white;
 }
+
+.footer-distributed .footer-icons a.lkdn{
+	color:  #04669A;
+}
+
 .footer-distributed .footer-icons a.lkdn:hover{
 	background-color:  #04669A;
 	color: white;
 }
+
+.footer-distributed .footer-icons a.ytb{
+	color:  #C31A1E;
+}
+
 .footer-distributed .footer-icons a.ytb:hover{
 	background-color:  #C31A1E;
 	color: white;

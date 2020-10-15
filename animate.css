@@ -7,7 +7,9 @@ img {vertical-align: middle;}
 .slideshow-container1 {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 50vh 22vw;
+  height: 90vh;
+  width: 60vw;
 }
 
 /* Caption text */

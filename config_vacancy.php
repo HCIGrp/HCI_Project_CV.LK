@@ -50,7 +50,7 @@ if (isset($_POST['save'])) {
 
         mysqli_query($db, "DELETE FROM vacancy_ad WHERE Id=$Id");
         $_SESSION['message2'] = "Removed Successfully!"; 
-        header('location: vacancy_details.php');
+      //  header('location: vacancy_details.php');
     }
 
     ?>

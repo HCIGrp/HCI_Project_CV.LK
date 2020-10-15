@@ -1,0 +1,454 @@
+.bg-textt .btn-ct1 {
+    position: absolute;
+    top: 11%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 43.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct2 {
+    position: absolute;
+    top: 11%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 58px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct3 {
+    position: absolute;
+    top: 11%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 58px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct4 {
+    position: absolute;
+    top: 11%;
+    left: 69.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 54.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct5 {
+    position: absolute;
+    top: 11%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 79.2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct6 {
+    position: absolute;
+    top: 27%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 46px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct7 {
+    position: absolute;
+    top: 27%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 46px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct8 {
+    position: absolute;
+    top: 27%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 53px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct9 {
+    position: absolute;
+    top: 27%;
+    left: 69.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 59.7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct10 {
+    position: absolute;
+    top: 27%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 51px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct11 {
+    position: absolute;
+    top: 43%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 56px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct12 {
+    position: absolute;
+    top: 43%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct13 {
+    position: absolute;
+    top: 43%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 59.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct14 {
+    position: absolute;
+    top: 43%;
+    left: 69.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 71.7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct15 {
+    position: absolute;
+    top: 43%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 42.4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct16 {
+    position: absolute;
+    top: 59%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 69px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct17 {
+    position: absolute;
+    top: 59%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct18 {
+    position: absolute;
+    top: 59%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 65.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct19 {
+    position: absolute;
+    top: 59%;
+    left: 69.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 66.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct20 {
+    position: absolute;
+    top: 59%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct21 {
+    position: absolute;
+    top: 75%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 83.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct22 {
+    position: absolute;
+    top: 75%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 61.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct23 {
+    position: absolute;
+    top: 75%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 65px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct24 {
+    position: absolute;
+    top: 75%;
+    left: 69.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 66.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct25 {
+    position: absolute;
+    top: 75%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 63px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct26 {
+    position: absolute;
+    top: 91%;
+    left: 10.8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 84px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct27 {
+    position: absolute;
+    top: 91%;
+    left: 30.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 37px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct28 {
+    position: absolute;
+    top: 91%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 60.5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct29 {
+    position: absolute;
+    top: 91%;
+    left: 69.4%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 57.8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .bg-textt .btn-ct30 {
+    position: absolute;
+    top: 91%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 6px 92px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+.bg-textt .btn-ct1:hover, .btn-ct2:hover, .btn-ct3:hover, .btn-ct4:hover, .btn-ct5:hover, .btn-ct6:hover, .btn-ct7:hover, .btn-ct8:hover, .btn-ct9:hover, .btn-ct10:hover, .btn-ct11:hover, .btn-ct12:hover, .btn-ct13:hover, .btn-ct14:hover, .btn-ct15:hover, .btn-ct16:hover, .btn-ct17:hover, .btn-ct18:hover, .btn-ct19:hover, .btn-ct20:hover, .btn-ct21:hover, .btn-ct22:hover, .btn-ct23:hover, .btn-ct24:hover, .btn-ct25:hover, .btn-ct26:hover, .btn-ct27:hover, .btn-ct28:hover, .btn-ct29:hover, .btn-ct30:hover {
+    background-color: black;
+  }

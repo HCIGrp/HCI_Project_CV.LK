@@ -65,13 +65,12 @@
   <div class="navbar2" id="myTopnav">
     <a href="index.php">Home</a>
     <a href="jobseeker.php">Job Seekers</a>
-<<<<<<< HEAD
         <div class="dropdown2">
           <button class="dropbtn2">Vacancies <i class="fa fa-caret-down"></i></button>
             <div class="dropdown2-content">
               <a href="All_vacancy.php">All Vacancies</a>
               <a href="#">Government</a>
-              <a href="#">Foreign</a>
+              <a href="Forieng_vacancy.php">Foreign</a>
             </div>
         </div>
     <a href="vacancy_post.php">Post Vacancy</a>
@@ -82,26 +81,6 @@
     <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
  </div> 
-=======
-    <div class="dropdown2">
-    <button class="dropbtn2">Vacancies 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown2-content">
-      <a href="All_vacancy.php">All Vacancies</a>
-      <a href="#">Government</a>
-      <a href="Forieng_vacancy.php">Foreign</a>
-    </div>
-  </div>
-  <a href="vacancy_post.php">Post Vacancy</a>
-  <a href="#">Employers</a>
-  <a href="#">Promotions</a>
-  <a href="headhunter.php">Headhunter Team</a>
-  <a href="contact_us.php">Contact</a>
-  <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-  </div> 
->>>>>>> 80ea207aaf6252b6c2c074964c047779b3617786
 
   <!--Make Responsive header -->
 

@@ -1,0 +1,20 @@
+.frame {
+    height: 60vh;
+    width: 65vw;
+    margin: 7.6vh 17.3vw;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    
+    animation: image 2s infinite alternate;
+  }
+  
+  @keyframes image {
+    0% {
+      background-image: url('https://unsplash.it/600/600');
+    }
+    100% {
+      background-image: url('https://unsplash.it/601/601');
+    }
+  }
+
