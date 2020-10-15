@@ -1,30 +1,26 @@
+/*
 .container-fluid {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    background-attachment: fixed;
-    background-color: #e0e9ff5d;
 }
 
 #card1{
     margin-top: 30px;
-    width: 30%;
-    left: 12cm;
-    border-color: rgba(0, 0, 0, 0.582);
+    width: 45%;
+    left: 27%;
     padding: 0.9%;
-    border-radius: 5%;
-    background-color: #ecececc4;
+    border-radius: 1.5%;
+    border-width: 0.9px;
 }
 
 #card2{
     margin-top: 30px;
-    width: 30%;
-    left: 12cm;
-    border-radius: 06%;
-    border-color: rgba(0, 0, 0, 0.582);
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
     border-style: solid;
-    border-width: 10px;
-    background-color: #ecececc9;
+    border-width: 0.9px;
 }
 
 .card-title{
@@ -33,5 +29,83 @@
 }
 
 label{
-    font-style: italic;
 }
+
+
+.container-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color:#fffcfc;
+}
+
+
+#card1{
+    margin-top: 30px;
+    width: 45%;
+    left: 27%;
+    padding: 0.1%;
+    border-radius: 1.5%;
+    border-width: 0.9px;
+}
+
+#card2{
+    margin-top: 30px;
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
+    border-style: solid;
+    border-width: 0.9px;
+    border: none;
+    font-size:larger;
+    background-color:#fafaff
+}
+*/
+
+.container-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #f6f6f6;
+background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+}
+
+#card1{
+    margin-top: 30px;
+    width: 45%;
+    left: 27%;
+    padding: 0.6%;
+    border-radius: 1.5%;
+    border-width: 0.1%;
+    background-color:#e6e6e6;
+}
+
+#card2{
+    margin-top: 30px;
+    width: 35%;
+    left: 32%;
+    border-radius: 1.5%;
+    border-style: solid;
+    border-width: 0.9px;
+    font-size:larger;
+    background-color:#e6e6e6;
+}
+.card-title{
+    color: blue;
+    font-size: 30px;
+}
+/*
+#card2:hover{
+    background-color: #00bfb2;
+background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+}
+*/
+#card2:hover{
+    background-color: #f1f2f6;
+ background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+ }
+ 
+ #card1:hover{
+      background-color: #f1f2f6;
+ background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
+ }

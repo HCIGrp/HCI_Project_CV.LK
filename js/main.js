@@ -57,5 +57,5 @@ $(document).on("click","#btnSave",function(event) {
                     return( true );
                  }
                   function myfuction() {
-                    window.location = "http://localhost/HCI_Project_CV.LK/apply_job.php";
+                    window.location = "http://localhost/HCI_Project_CV.LK/Forieng_vacancy.php";
                   }

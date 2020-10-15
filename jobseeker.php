@@ -289,7 +289,143 @@ function showSlides() {
 </script>
 -->
 
+<<<<<<< HEAD
 <br><br><br><br><br><br>
+=======
+<br>
+<p class="p3" style="text-align:center">We bring you the best Job Opportunities through Employers, Headhunters, Recruitment Agents <br><br>
+Upload Your CV in the preffered position</p>
+<br>
+
+<table class="tablee">
+  <tr>
+    <td><div class="navbar1">
+  <div class="dropdown1">
+    <button class="dropbtn1">Human Resources Management 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="apply_form.php">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div> </td>
+
+  <td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Logistics & Supply chain management
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div></td>
+
+    
+
+  <td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Production Management 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div></td>
+  </tr>
+
+  <tr>
+    <td>
+    <div class="navbar1">
+    <div class="dropdown1">
+    <button class="dropbtn1">Maintenance Management 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div>
+</td>
+
+<td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Information Technology 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Developers</a>
+      <a href="#">Designers</a>
+      <a href="#">Suitable Position</a>
+    </div>
+  </div></div></td>
+
+  <td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Engineering
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Civil Engineering</a>
+      <a href="#">Electrical Engineering</a>
+      <a href="#">Mechanical Engineering</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div></td>
+
+
+  </tr>
+
+
+  <tr>
+    <td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Finance & Accounting 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div>
+</td>
+    
+<td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Marketing & Sales 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Manager & Above</a>
+      <a href="#">Executive & Above</a>
+      <a href="#">Suitable Post</a>
+    </div>
+  </div></div></div>
+</td>
+
+<td><div class="navbar1">
+        <div class="dropdown1">
+    <button class="dropbtn1">Lecturers 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">Full Time</a>
+      <a href="#">Part Time</a>
+    </div>
+  </div></div></div>
+</td>
+  
+
+  </tr>
+</table>
+<br><br><br>
+>>>>>>> 80ea207aaf6252b6c2c074964c047779b3617786
    
 <!--back to top -->
 <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
