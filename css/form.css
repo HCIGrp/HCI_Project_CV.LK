@@ -1,9 +1,9 @@
 body{
-    color: black;
-}
+    background-color: #1dd1a1;
+  background-image: linear-gradient(315deg, #1dd1a1 0%, #d3d3d3 74%);
+  
+  }
 .container-fluid {
-    margin-top: 10px;
-    margin-bottom: 10px;
     background-color: #f6f6f6;
     background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
 }
@@ -85,4 +85,14 @@ col_1{
     width: 120px;
     height: 45px;
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#back-to-top:hover {opacity: 1}
 
