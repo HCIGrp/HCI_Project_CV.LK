@@ -213,6 +213,7 @@ table, th, td {
 
   
 <?php include('footer1.php'); ?>
+
 </body>
 
 
@@ -220,3 +221,4 @@ table, th, td {
 
 
 </html>
+<?php mysqli_close($conn); ?>
