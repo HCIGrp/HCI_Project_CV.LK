@@ -7,6 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="footer, address, phone, icons" />
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+	</script>
 
 	<link rel="stylesheet" href="style1.css">
 	
@@ -25,19 +29,20 @@
 		<footer class="footer-distributed">
 
 			<div class="footer-left">
-          <img src="images/logo2.png">
+         <!-- <img src="images/logo2.png">	-->
 				<h3>NewJobs<span>BetterLife</span></h3>
 
 				<p class="footer-links">
+				
 					<a href="index.php">Home</a>
-					|
+					<br>
 					<a href="All_vacancy.php">Vacancy</a>
-                    |
+                    <br>
 					<a href="#">About</a>
-					|
+					<br>
 					<a href="contact_us.php">Contact</a>
+					
 				</p>
-
 				<p class="footer-company-name">Copyright 2020 © CV.lk All Rights Reserved.</p>
 			</div>
 
@@ -70,7 +75,6 @@
 					<a class="lkdn" href="https://www.linkedin.com/company/cv/about/"><i class="fa fa-linkedin" ></i></a>
 					<a class="ytb" href="#"><i class="fa fa-youtube" ></i></a>
 			</div>
-
 		</footer>
 	</body>
 </html>
