@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Vacancy Advertisement Publish</title>
+        <title>Job Seekers</title>
         <!-- Bootstrap CSS -->
        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
         <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
@@ -88,7 +88,7 @@ table.tablee {
 </style>
 </head>
 
-<body style="background-color: #EDC7B7;">
+<body style="background-color:;">
 <?php include('header.php'); ?>
 <br>
 
@@ -158,7 +158,7 @@ Upload Your CV in the preffered position</p>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown1-content">
-      <a href="#">Manager & Above</a>
+      <a href="apply_form.php">Manager & Above</a>
       <a href="#">Executive & Above</a>
       <a href="#">Suitable Post</a>
     </div>
@@ -277,10 +277,10 @@ Upload Your CV in the preffered position</p>
 
   </tr>
 </table>
-
+<br><br><br>
    
 
   
-  
+<?php include('footer1.php'); ?>
 </body>
 </html>

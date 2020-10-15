@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Vacancy Advertisement Publish</title>
+        <title>Update of vacancy</title>
 
         <!-- Bootstrap CSS -->
      <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
@@ -31,7 +31,7 @@
 
       <!--  <link type='text' href='inc/config_vacancy.php'/>  -->
     </head>
-<body style="background-color:#EDC7B7;">
+<body style="background-color:;">
 <?php include('header.php'); ?>
 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
@@ -79,6 +79,8 @@
 </div>
 
 </form>
+<?php include('footer1.php'); ?>
 
 </body>
+
 </html>

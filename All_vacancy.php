@@ -7,11 +7,43 @@
 <link rel='stylesheet' type='text/css' href='table_css/table_category.css'/>
         <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
         <script src="js/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
+<title>Local vacancies</title>
 </head>
-<body style="background-color: #EDC7B7;">
+<body style="background-color:;">
 <?php include('header.php'); ?>
 
     <br><br>
@@ -63,8 +95,13 @@
 
 
 
-<br><br><br><br>
-<table class="table2">
+<br><br><br>
+<form class="example" action="All_vacancy.php" style="margin:left;max-width:300px">
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<br>
+<table class="table2" id="myTable">
   <tr>
     <th>Referene</th>
     <th>Company</th>
@@ -113,6 +150,28 @@
 
 </tr>
 </table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<?php include('footer1.php'); ?>
 
 </body>
 </html>
