@@ -25,6 +25,17 @@ include("./inc/config.php");
 
 
 
+<style>
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+</style>
+
+
+
 <body>
     <!-- punsala update-->
     <!-- new update-->
@@ -38,7 +49,12 @@ include("./inc/config.php");
 
 
 
-    <div class="container-fluid">
+<div class="container-fluid">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+
         <div class="job_category">
                 <table class="table">
                     <thead class="thead-dark">
@@ -95,12 +111,17 @@ include("./inc/config.php");
                                 </tbody>
                             </table>
             </div>
-</div>
+
+        </div>
+    </div>   
 
 
+
+
+<div class="row">
+<div class="col-sm-12">    
 <div class="top_jobs">
-
-<table class="table">
+<table class="table table-striped">
                     <thead class="thead-dark">
                         <tr>
                         </tr>
@@ -162,6 +183,23 @@ include("./inc/config.php");
 
     
 </div>    
+</div>  
+</div>  
+
+
+
+
+
+</div>
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12">
+
+</div>
+</div>
 
 
 
@@ -170,13 +208,11 @@ include("./inc/config.php");
 
 
 
+</div>
 
 
-
-
-
-    <?php include('footer1.php'); ?>
-
+  
+<?php include('footer1.php'); ?>
 </body>
 
 
