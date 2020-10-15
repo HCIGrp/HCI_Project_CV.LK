@@ -39,104 +39,147 @@ include("./inc/config.php");
 
 
     <div class="container-fluid">
+        <div class="job_category">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                        </tr>
+                    </thead>
 
+                    <tbody class="text-dark">
+                    <tr>
+                        <?php
 
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-
-
-
-                </tr>
-            </thead>
-
-            <tbody class="text-dark">
-            <tr>
-                <?php
-
-                $sql = "SELECT * FROM job_categories";
-                $result = $conn->query($sql);
-               
-
-                if ($result->num_rows > 0) {
+                        $sql = "SELECT * FROM job_categories";
+                        $result = $conn->query($sql);
                     
 
-                    $count = 1;
+                        if ($result->num_rows > 0) {
+                            
 
-                    while ($row = $result->fetch_assoc()) {
+                            $count = 1;
 
-                ?>
-             
-                      
+                            while ($row = $result->fetch_assoc()) {
 
+                        ?>
+                                <?php
+                                    if ($count <= 4) {
+                                    
+                                    ?>
+
+                                <td>
+                                <a href=""><?php echo $row['description'] ?> </a> </td>  
+                            
+                            
+                            
+                            <?php 
+                                    if($count == 4){ 
+                                        $count = 0;
+                                        ?>
+
+                                    </tr>
+                                    <?php   } 
+                            
+                            ?>      
+                    <?php } ?>
+                                <?php
+                            
+                                $count ++;
+                            
+
+                                        }
+                                    } else {
+                                        echo "0 Result";
+                                    }
+                                ?>         
+                                </tbody>
+                            </table>
+            </div>
+</div>
+
+
+<div class="top_jobs">
+
+<table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                        </tr>
+                    </thead>
+
+                    <tbody class="text-dark">
+                    <tr>
                         <?php
-                            if ($count <= 4) {
-                               
-                            ?>
 
-                        <td>
-                         <a href=""><?php echo $row['description'] ?> </a> </td>  
-                      
-                     
-                       
-                       <?php 
-                               if($count == 4){ 
-                                $count = 0;
-                                   ?>
+                        $sql = "SELECT * FROM vacancy_ad";
+                        $result = $conn->query($sql);
+                    
 
-                               </tr>
-                             <?php   } 
-                       
-                       ?>             
+                        if ($result->num_rows > 0) {
+                            
 
+                            $count = 1;
 
+                            while ($row = $result->fetch_assoc()) {
 
-<?php } ?>
+                        ?>
+                                <?php
+                                    if ($count <= 4) {
+                                    
+                                    ?>
 
+                                <td>
+                                    <p> <?php echo $row['Company'] ?></p>
+                                    <a href=""><?php echo $row['Position'] ?> </a>
+                                
+                            
+                            </td>  
+                            
+                            
+                            
+                            <?php 
+                                    if($count == 4){ 
+                                        $count = 0;
+                                        ?>
 
+                                    </tr>
+                                    <?php   } 
+                            
+                            ?>      
+                    <?php } ?>
+                                <?php
+                            
+                                $count ++;
+                            
 
-            <?php
-          
-            $count ++;
-         
-
-                    }
-                } else {
-                    echo "0 Result";
-                }
-
-            ?>
-
-
-         
-            </tbody>
-        </table>
-
-
-
-
-
-
-
-
-<div class="row">
-<div class="col-sm-12"> 
-
+                                        }
+                                    } else {
+                                        echo "0 Result";
+                                    }
+                                ?>         
+                                </tbody>
+                            </table>
 
 
     
-
-
-</div>
-</div>
+</div>    
 
 
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+    <?php include('footer1.php'); ?>
 
 </body>
 
-<?php include 'footer.php'; ?>
+
 
 
 
