@@ -15,16 +15,16 @@
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
 
-<div class="search">
-<form class="search" action="government_jobs.php" >
-             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="   Search.." name="search2"  class="fa fa-search" >        
-            </form>
-</div>
+<div class="bg-image" style="background-image: url('images/bg-01.jpg');">
 
 <h2 style="text-align:center">Government Vacancies</h2>
+<br>
 
-
-
+<div >
+<form class="search" action="government_jobs.php" >
+             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="   Search.." name="search2"  class="fa fa-search" style="width:20%">        
+            </form>
+</div>
 
 
 <table class="table2" id="myTable">

@@ -235,14 +235,23 @@ if(isset($_POST['sign_In'])){
   
  <!-- <div class="container">       -->
 
+ <h4 style="text-align:center">Company Login</h4>
 
 
- <?php 
-  if( isset($errors) &&  !empty($errors)){
-   // echo '<h5 style="text-align:center;"  class="bg-danger text-white" > Invalid username / Password </h5>';
-   echo '<h5 style="margin-left:150px;"  class=" text-danger" > Invalid username / Password </h5>';
-  }
-?>
+
+<?php if( isset($errors) &&  !empty($errors)){ ?>
+                    
+                    <div class="alert alert-danger" role="alert">
+                   
+
+                    Invalid username / Password
+                    </div>
+
+                   
+                    <?php }?>
+
+
+
 
                     <div class="form-group">
                         <label for="position">Email</label> 
@@ -251,7 +260,7 @@ if(isset($_POST['sign_In'])){
                         </div>
                         <div class="form-group">
                         <label for="position">Password</label> 
-                            <input type="text" class="form-control"  name="password" required>
+                            <input type="password" class="form-control"  name="password" required>
 
                         </div>
 

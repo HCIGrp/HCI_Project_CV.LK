@@ -23,7 +23,7 @@
     border: none;
     background: #f1f1f1;
     text-align: left;
-    text-align: top:
+    
   }
 
 
@@ -36,13 +36,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     font-size: 90%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 30px;
     max-width: 500px;
     text-align: center;
+    margin: auto;
   }
   
   .panel-container strong {

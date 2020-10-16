@@ -234,6 +234,8 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   
  <!-- <div class="container">       -->
 
+        <h4 style="text-align:center">Register</h4>
+
                     <div class="form-group">
                         <label for="position">Company Name</label> 
                             <input type="text" class="form-control"  name="company" required>

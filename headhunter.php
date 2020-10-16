@@ -5,13 +5,22 @@
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
 </head>
 <body>
+<<<<<<< HEAD
 <?php  include 'header.php';?>
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
+=======
+
+>>>>>>> e8e1af0c9b4da5472f09d1ee30f19749fdf2f68b
+
+
+
+
+
 
 <h2 style="text-align:center">Headhunter Team</h2>
-
+<br>
 <div class="card">
   <img src="css/Headhunter_CSS/team2.jpg" alt="John" style="width:100%">
   <h1>Sudheera</h1>
