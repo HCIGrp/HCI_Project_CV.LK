@@ -163,7 +163,7 @@ Upload Your CV in the preffered position</p>
 </div>
 
 
-<div class="bs-example2" style="position: absolute;top: 119.7%;left: 475px;">
+<div class="bs-example2" style="position: absolute;top: 102.4%;left: 475px;">
     <div class="accordion" id="accordionExample2">
 
     <div class="card">
@@ -211,7 +211,7 @@ Upload Your CV in the preffered position</p>
 </div>
 
 
-<div class="bs-example3" style="position: absolute;top: 119.7%;left: 950px;">
+<div class="bs-example3" style="position: absolute;top: 102.4%;left: 950px;">
     <div class="accordion" id="accordionExample3">
 
     <div class="card">
