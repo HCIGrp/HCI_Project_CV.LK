@@ -4,7 +4,8 @@
     margin: auto;
     text-align: center;
     font-family: arial;
-    color: cornsilk ;
+    text-decoration-color: rgb(0, 0, 0);
+    /* color: cornsilk ; */
   }
   .bg-image {
     background-repeat: no-repeat;
