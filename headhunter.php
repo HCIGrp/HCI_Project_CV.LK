@@ -3,9 +3,10 @@
 <head>
 <title>Headhunter Team</title>
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
+<?php  include 'header.php';?>
 </head>
 <body>
-<?php  include 'header.php';?>
+
 
 <h2 style="text-align:center">Headhunter Team</h2>
 
