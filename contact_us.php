@@ -9,14 +9,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="js/back_2top.js"></script>   
 
     <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel='stylesheet' type='text/css' href="css/bg.css" />
 
 </head>
 <body>
 <?php  include 'header.php';?>
+<?php include('feedback-btn.php'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');" >
     <div class="row">
         <div class="col-sm-12" >
             <div class="card" id="card1">
@@ -53,8 +56,11 @@
         </div>
     </div>
 
-    <?php include('footer1.php'); ?>
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+  
+
+<?php include('footer1.php'); ?>
+
 </div>
 </body>
-
 </html>

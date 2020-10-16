@@ -14,7 +14,8 @@ $(document).on("click","#btnSave",function(event) {
     $("#alertError").text("");
     $("#alertError").hide();
 
-	var status = validateJobForm();
+    var status = validateJobForm();
+    
 					if (status != true) {
 						$("#alertError").text(status);
 						$("#alertError").show();
