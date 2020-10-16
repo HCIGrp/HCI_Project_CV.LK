@@ -18,13 +18,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<?php  include 'header.php';?>
+<?php  include('header.php');?>
 <?php include('feedback-btn.php'); ?>
-<body>
-
-
-
-    <div class="container-fluid bg-image"  style="background-image: url('images/bg-01.jpg');">
+<body class="bg-image" style="background-image: url('images/bg-01.jpg');">
+    <div class="container-fluid"  >
     <hr>
         <div class="row">
             <div class="col-sm-12">

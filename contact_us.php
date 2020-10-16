@@ -15,12 +15,15 @@
     <link rel='stylesheet' type='text/css' href="css/bg.css" />
 
 </head>
-<body>
 <?php  include 'header.php';?>
 <?php include('feedback-btn.php'); ?>
 
-<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');" >
-    <div class="row">
+
+<body class="bg-image" style="background-image: url('images/bg-01.jpg');" >
+
+<div class="container-fluid">
+    <div class="row" id="row1">
+        <!--
         <div class="col-sm-12" >
             <div class="card" id="card1">
                 <img class="card-img" src="image/download.png" alt="Card image">
@@ -43,7 +46,7 @@
                             info@cv.lk 
                         <br>ads@cv.lk
                         <br>
-                    <label for="reg_no" class="dis">Address :</label> 
+                    <label for="reg_no" class="dis"> :</label> 
                              NO 176, 5th floor,
                         <br> WARD CITY COMPLEX,
                         <br> Queen Marry Road,
@@ -54,13 +57,64 @@
 
 </div>
         </div>
+
+-->
+<div class="header1"> 
+   <h2> GET IN TOUCH</h2>       
+   </div>
+<div class="card-group text-center">
+  <div class="card">
+    <div class="card-body">
+    <i class="fa fa-map-marker" style="font-size:36px"></i>
+      <h4 class="card-title">Address</h4>
+      <h5>cv.lk <br> Main branch</h5>
+      <p class="card-text"> www.cv.lk
+                        <br> NO 176, 5th floor,
+                        <br> WARD CITY COMPLEX,
+                        <br> Queen Marry Road,
+                        <br> Gampaha,
+                        <br> Sri Lanka.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+    <i class="fa fa-phone" style="font-size:36px"></i>
+      <h4 class="card-title">Phone</h4>
+      <h5>cv.lk <br> Telephone <br> Numbers</h5>
+      <p class="card-text"> +94 70 134 56 754 
+                         <br>+94 71 432 89 802.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+     <i class="fa fa-envelope" style="font-size:36px"></i>
+     <h4 class="card-title">Email</h4>
+     <h5>cv.lk <br> Email <br> Address</h5>
+      <p class="card-text"> info@cv.lk 
+                        <br>ads@cv.lk</p>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+        <h3>Message Us</h3>
+        
+        <hr>
+        <p>If you wish to be considered for employment at cv.lk, please do not send a message, insted send an email or letter to cv.lk and our Human Resources department will contact you after their review of your submitted information.</h2>
+</p>
+</div>
     </div>
 
     <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
   
 
-<?php include('footer1.php'); ?>
+
 
 </div>
 </body>
+
+<?php include('footer1.php'); ?>
 </html>
