@@ -74,8 +74,8 @@
             </div>
         </div>
     <a href="vacancy_post.php">Post Vacancy</a>
-    <a href="#">Employers</a>
-    <a href="#">Promotions</a>
+    <a href="employers.php">Employers</a>
+    <a href="promotions.php">Promotions</a>
     <a href="headhunter.php">Headhunter Team</a>
     <a href="contact_us.php">Contact</a>
     <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()">&#9776;</a>
