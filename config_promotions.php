@@ -1,7 +1,7 @@
 
 <?php
     session_start();
-    $db = mysqli_connect('localhost','root','','hci1');
+    $db = mysqli_connect('localhost','root','','hci');
 
     // initialize variables
     $Company = "";
@@ -23,7 +23,7 @@ if (isset($_POST['save'])) {
 		$Publisheddate = $_POST['Publisheddate'];
         $Advertisement = $_POST['Advertisement'];
 
-        mysqli_query($db, "INSERT INTO promotions_ad (Company, Publisheddate, Advertisement)"
+        mysqli_query($db, "INSERT INTO promotion_ad (Company, Publisheddate, Advertisement)"
         . "VALUES ('$Company', '$Publisheddate', '$Advertisement')");
         $_SESSION['message'] = "Published Successfully";
         header('location: promotions.php');
@@ -44,7 +44,7 @@ if (isset($_POST['save'])) {
     if (isset($_GET['del'])) {
         $Id = $_GET['del'];
 
-        mysqli_query($db, "DELETE FROM promotions_ad WHERE Id=$Id");
+        mysqli_query($db, "DELETE FROM promotion_ad WHERE Id=$Id");
         $_SESSION['message2'] = "Removed Successfully!"; 
         header('location: promotions.php');
     }

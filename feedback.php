@@ -6,8 +6,9 @@
 
 <link rel="stylesheet" href="css/Feedback_CSS/feedback.css" />
 </head>
-<?php include('header.php'); ?>
+
 <body>
+<?php include('header.php'); ?>
 
 <div class="rate-body">
 <span class="heading">User Rating</span>
@@ -21,7 +22,7 @@
 
 <div class="row">
   <div class="side">
-    <div>Worst</div>
+    <div>Excellent</div>
   </div>
   <div class="middle">
     <div class="bar-container">
@@ -32,7 +33,7 @@
     <div>150</div>
   </div>
   <div class="side">
-    <div>Bad</div>
+    <div>Good</div>
   </div>
   <div class="middle">
     <div class="bar-container">
@@ -54,7 +55,7 @@
     <div>15</div>
   </div>
   <div class="side">
-    <div>Good</div>
+    <div>Bad</div>
   </div>
   <div class="middle">
     <div class="bar-container">
@@ -65,7 +66,7 @@
     <div>6</div>
   </div>
   <div class="side">
-    <div>Excellent</div>
+    <div>Worst</div>
   </div>
   <div class="middle">
     <div class="bar-container">
@@ -118,6 +119,6 @@
   </div>
   
 </div>
-
+<?php include('footer1.php'); ?>
 </body>
 </html>
