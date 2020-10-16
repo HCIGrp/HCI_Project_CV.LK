@@ -1,3 +1,78 @@
+<?php session_start();?>
+
+<?php
+include("./inc/config.php");
+?>
+
+
+<?php
+
+if(isset($_POST['sign_In'])){
+
+  $errors = array();
+
+    if(!isset ($_POST['email']) || strlen(trim($_POST['email'])) < 1  ){
+        $errors [] = "Username is Missing / Invalid ";
+    }
+
+    if(!isset ($_POST['password']) || strlen(trim($_POST['password'])) < 1  ){
+      $errors [] = "Password is Missing / Invalid ";
+  }
+
+  if(empty($errors)){
+
+    $email = mysqli_real_escape_string($conn,$_POST['email']);
+    $password =  mysqli_real_escape_string($conn,$_POST['password']);
+    $hashed_password = sha1($password);
+
+    $query = "SELECT * FROM company_reg
+              WHERE email = '{$email}'
+              AND password = '{$hashed_password}'
+              LIMIT 1 ";
+
+    $result_set = mysqli_query($conn,$query);      
+
+    if($result_set){
+      if(mysqli_num_rows($result_set) == 1){
+          //vallid user found
+          $user = mysqli_fetch_assoc($result_set);
+          $_SESSION['user_id'] = $user['id'];
+          $_SESSION['user_email'] = $user['email'];
+          $_SESSION['user_name'] = $user['company_name'];
+
+
+            header('Location: index.php');
+        
+
+       
+
+
+
+      }else{
+         //username and password invalid
+         $errors[] = "Invalid username / password";
+      }
+    }else{
+      $errors[] = "Database query faild";
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+}
+
+?>
+
+
+
+
 
 
 
@@ -155,24 +230,33 @@
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">
             <div class="card-body">
-                <form action="config_vacancy.php" method="post" enctype="multipart/form-data" role="form" data-toggle="validator">
+                <form action="" method="post">
   
  <!-- <div class="container">       -->
 
+
+
+ <?php 
+  if( isset($errors) &&  !empty($errors)){
+   // echo '<h5 style="text-align:center;"  class="bg-danger text-white" > Invalid username / Password </h5>';
+   echo '<h5 style="margin-left:150px;"  class=" text-danger" > Invalid username / Password </h5>';
+  }
+?>
+
                     <div class="form-group">
                         <label for="position">Email</label> 
-                            <input type="text" class="form-control"  name="company" required>
+                            <input type="text" class="form-control"  name="email" required>
 
                         </div>
                         <div class="form-group">
                         <label for="position">Password</label> 
-                            <input type="text" class="form-control"  name="email" required>
+                            <input type="text" class="form-control"  name="password" required>
 
                         </div>
 
                 
                     <div class="form-group">
-                        <button id="messag" class="btn btn-primary btn-block" type="submit" name="login">Login</button>
+                        <button id="messag" class="btn btn-primary btn-block" type="submit" name="sign_In">Login</button>
                     </div>
                 </form>
                
@@ -187,3 +271,6 @@
 
 </html>
 <?php include('footer1.php'); ?>
+
+
+<?php mysqli_close($conn); ?>

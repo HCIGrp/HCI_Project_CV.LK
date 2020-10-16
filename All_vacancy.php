@@ -38,7 +38,7 @@
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  margin: 55vh 0;
+  margin: 73vh 0;
   text-align: center;
 }
 
@@ -80,7 +80,7 @@ body, html {
   border: 3px solid #00fede;  /*#f1f1f1 */
   border-radius: 5px;
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;

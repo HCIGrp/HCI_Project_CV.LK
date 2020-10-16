@@ -1,9 +1,13 @@
+
+
 <?php
 include("./inc/config.php");
 ?>
 
-
 <?php 
+
+
+$msgcheck = false;
 
 if(isset($_POST['register'])){
 
@@ -44,8 +48,13 @@ $sql = "INSERT INTO `company_reg` (`email`,`password`,`company_name`,`address`,`
 
 
 if (mysqli_query($conn, $sql)) { 
+    $msgcheck = true;
     $msg ="Successfuly Registerd!";
-    echo "Successfuly Registerd!";
+  //  echo "Successfuly Registerd!";
+
+  
+
+
 } else {
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     
@@ -271,6 +280,21 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     <div class="form-group">
                         <button id="messag" class="btn btn-primary btn-block" type="submit" name="register">Register</button>
                     </div>
+
+
+                    
+                  
+
+                    <?php if($msgcheck){ ?>
+                    
+                    <div class="alert alert-primary" role="alert">
+                    <?php echo $msg ?>
+                    </div>
+
+                   
+                    <?php }?>
+
+
                 </form>
                
             </div>
