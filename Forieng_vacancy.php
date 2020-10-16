@@ -19,8 +19,10 @@
 
 </head>
 <?php  include 'header.php';?>
-<?php include('feedback-btn.php'); ?>
-<body>
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
+  <body>
 
 
 

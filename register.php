@@ -79,7 +79,7 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 <html class="no-js" lang="en">
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vacancy Advertisement Publish</title>
+        <title>Register Your Company</title>
         <!-- Bootstrap CSS -->
        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
        <!-- <link rel='stylesheet' type='text/css' href='css/vacancy.css'/>  -->
@@ -223,8 +223,9 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php include('header.php'); ?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">

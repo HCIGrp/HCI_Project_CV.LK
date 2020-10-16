@@ -17,8 +17,10 @@
 </head>
 <body>
 <?php  include 'header.php';?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
+  
 <div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');" >
     <div class="row">
         <div class="col-sm-12" >
