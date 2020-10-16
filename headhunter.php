@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Headhunter Team</title>
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
 </head>
 <body>
 <?php  include 'header.php';?>
 
-<h2 style="text-align:center">Headhunter</h2>
+<h2 style="text-align:center">Headhunter Team</h2>
 
 <div class="card">
-  <img src="css/Headhunter_CSS/team1.jpeg" alt="John" style="width:100%">
+  <img src="css/Headhunter_CSS/team2.jpg" alt="John" style="width:100%">
   <h1>Sudheera</h1>
   <p class="title">CEO & Founder</p>
   <p>Hello, 
@@ -29,7 +30,14 @@
        </div>
   </div>
   <p><button>Contact - 071 8009 280</button></p>
+
+
+  
 </div>
+
+
+
+
 
 </body>
 <?php include('footer1.php'); ?>
