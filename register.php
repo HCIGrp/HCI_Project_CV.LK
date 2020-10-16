@@ -2,11 +2,14 @@
 
 <?php
 include("./inc/config.php");
+
 ?>
 
+
+<?php session_start();?>
 <?php 
 
-
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 $msgcheck = false;
 
 if(isset($_POST['register'])){
@@ -222,10 +225,15 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 </style>
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
+
 <?php include('header.php'); ?>
+
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
+
+
+
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">
@@ -241,7 +249,6 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                             <input type="text" class="form-control"  name="company" required>
 
                         </div>
-
 
                         <div class="form-group">
                         <label for="position">Contact Number</label> 
@@ -312,5 +319,6 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 
 </html>
 <?php include('footer1.php'); ?>
+
 
 <?php mysqli_close($conn); ?>
