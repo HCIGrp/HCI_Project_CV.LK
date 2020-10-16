@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/Feedback_CSS/add_feedback.css" />
     <?php  include 'header.php';?>
   </head>
-  <body>
+  <body onload='document.form1.email.focus()'>
 <br>
 <br>
 <!-- Design by Ildiesign - https://dribbble.com/shots/7292664-Survey-UI-Design -->
@@ -15,14 +15,14 @@
     <div id="panel" class="panel-container">
       <strong
         >How satisfied are you with our<br />
-        customer support performance?</strong
+        service?</strong
       ><br>
 
-
+      <form name="form1" action="#"> 
       
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-
+    <input type="text" placeholder="Enter Email" name="email"  required>
+    
+</form>
 
       <div class="ratings-container">
 
@@ -55,15 +55,37 @@
       </div>
       <!-- <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea> -->
       <!-- <label for="review">Review</label> -->
-      <input type="text" placeholder="Write your comments.." name="review" style="height:100px" required>
+      <form name="form2" >
+      <input type="text" placeholder="Write your review.." name="review" style="height:100px" required>
+      
+</form>
+      
+
       <br>
-      <button class="btn" id="send">Send review</button>
+
+
+      <!-- <li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.email)"/></li> -->
+      <button class="btn" id="send" onclick="ValidateEmail(document.form1.email)">Send review</button>
     </div>
   </body>
 
 
   <script >
-      const ratingsEl = document.querySelectorAll(".rating");
+
+
+
+
+
+
+
+function ValidateEmail(inputText)
+{
+var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+if(inputText.value.match(mailformat))
+{
+
+
+    const ratingsEl = document.querySelectorAll(".rating");
 const sendBtn = document.querySelector("#send");
 const panel = document.querySelector("#panel");
 
@@ -85,6 +107,25 @@ sendBtn.addEventListener("click", () => {
 		<a href='feedback.php'><button class="btn">Done</button></a>
 	`;
 });
+
+
+
+// alert("Valid email address!");
+// document.form1.email.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.form1.email.focus();
+return false;
+}
+}
+
+
+
+
+
 
 
   </script>

@@ -41,6 +41,8 @@
 					<a href="about_us.php">About</a>
 					<br>
 					<a href="contact_us.php">Contact</a>
+					<br>
+					<a href="feedback.php">Feedback</a>
 					
 				</p>
 				<p class="footer-company-name">Copyright 2020 © CV.lk All Rights Reserved.</p>

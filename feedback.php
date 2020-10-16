@@ -82,10 +82,11 @@
 </div>
 <br>
 <br>
-<div class="fbtn">
-<a href='add_feedback.php'><button class="button" style="width:100%">Add Feedback</button></a>
+<div>
+<a href='add_feedback.php'><button class="button"  >Add your Feedback</button></a>
 </div>
 </div>
+
 <br><br>
 
 
@@ -100,7 +101,7 @@
     <div class="bar-container">
       <div class="bar-5"></div>
     </div>
-    <div>30/10/2020</div>
+    <div>17/10/2020</div>
       <h2>abc@abc.com</h2>
       <p>Best service.</p>
     </div>
@@ -129,6 +130,32 @@
       <p>Very poor service.coudn't find any job. worst website ever.</p>
     </div>
   </div>
+
+  <div class="container right">
+    <div class="content">
+    <div>Excellent</div>
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+    <div>28/09/2020</div>
+      <h2>lagatha@gmail.com</h2>
+      <p>Providing very good service and easy to use functions of this website. Highly recomened.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+    <div>Excellent</div>
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+    <div>20/09/2020</div>
+      <h2>sahanridmal@gmail.com</h2>
+      <p>Greate website. Highly recomened.</p>
+    </div>
+  </div>
+
+
   
 </div>
 <?php include('footer1.php'); ?>
