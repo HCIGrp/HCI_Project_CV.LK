@@ -3,10 +3,29 @@
 
 
 <?php 
+
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 	if (isset($_GET['edit'])) {
 		$Id = $_GET['edit'];
 		$update = true;
-		$record = mysqli_query($db, "SELECT * FROM vacancy_ad WHERE Id=$Id");
+        $record = mysqli_query($db, "SELECT * FROM vacancy_ad WHERE Id=$Id");
+        
+ //Image one Upload
+
+
+ 
+ $v1 = rand(1111,9999);
+ $v2 = rand(1111,9999);
+ $v3 = $v1.$v2;
+ $fnm =$_FILES["img"]["name"];  
+ $dst ="./company_logos/".$v3.$fnm;
+ $img_one ="company_logos/".$v3.$fnm;  //varible for quary    
+ move_uploaded_file($_FILES["img"]["tmp_name"],$dst);   
+
+
+             
+
+
         
 		if (count(array($record)) == 1 ) {
 			$n = mysqli_fetch_array($record);
@@ -88,7 +107,9 @@
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">
             <div class="card-body">
-                <form action="config_vacancy.php" method="post" enctype="multipart/form-data" role="form" data-toggle="validator">
+
+
+ <form action="config_vacancy.php" method="post" enctype="multipart/form-data" role="form" data-toggle="validator">
   
 
  <!-- <div class="container">       -->
