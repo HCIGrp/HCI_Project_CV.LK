@@ -11,13 +11,16 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
         $record = mysqli_query($db, "SELECT * FROM vacancy_ad WHERE Id=$Id");
         
  //Image one Upload
+
+
+ 
  $v1 = rand(1111,9999);
  $v2 = rand(1111,9999);
  $v3 = $v1.$v2;
  $fnm =$_FILES["img"]["name"];  
  $dst ="./company_logos/".$v3.$fnm;
  $img_one ="company_logos/".$v3.$fnm;  //varible for quary    
- move_uploaded_file($_FILES["img"]["tmp_name"],$dst);
+ move_uploaded_file($_FILES["img"]["tmp_name"],$dst);   
 
 
              
