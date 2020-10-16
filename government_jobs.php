@@ -11,6 +11,9 @@
 <body>
 
 <?php  include 'header.php';?>
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <div class="bg-image" style="background-image: url('images/bg-01.jpg');">
 

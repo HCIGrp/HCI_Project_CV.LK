@@ -3,11 +3,21 @@
 <head>
 <title>Headhunter Team</title>
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
-<?php  include 'header.php';?>
 </head>
 <body>
+<<<<<<< HEAD
+<?php  include 'header.php';?>
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
+=======
 
+<<<<<<< HEAD
 <!-- <div class="bg-image" style="background-image: url('images/bg-01.jpg');"> -->
+=======
+>>>>>>> e8e1af0c9b4da5472f09d1ee30f19749fdf2f68b
+
+>>>>>>> 517114f02039795b7159597240f8da8ef5474535
 
 
 

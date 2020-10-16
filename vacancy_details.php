@@ -37,8 +37,9 @@
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php include('header.php'); ?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <?php if (isset($_SESSION['message'])): ?>
 	<div class="msg">
@@ -68,7 +69,7 @@
 <?php endif ?>
 <br>
 <table>
-    <thead style="background-color:black;color:white">
+    <thead style="background-color:white;color:black">
         <tr>
             <th>Company</th>
             <th>Position</th>
@@ -85,9 +86,14 @@
             <td><?php echo $row['Position']; ?></td>
             <td><?php echo $row['Opendate']; ?></td>
             <td><?php echo $row['Closedate']; ?></td>
-            <td> <img src="<?php echo 'images/ad1.png' ?>" width="80" height="80" alt="Processing"> </td>
-         <!-- <td><img src="upload/<?php echo $row['Id']; ?>" width="80" height="80" alt="Processing"> </td>    -->
+           <td><img src="<?php echo $row['Advertisement']; ?>" width="80" height="80" alt="Processing"></td>
+
+      
             
+
+         <!--   <td> <img src="<?php echo 'images/ad1.png' ?>" width="80" height="80" alt="Processing"> </td>-->
+         <!-- <td><img src="upload/<?php echo $row['Id']; ?>" width="80" height="80" alt="Processing"> </td>    -->
+       <!--  <td><img src='./vacancy_advertisements/ $row['Advertisement']; ?>" width="80" height="80" alt="Processing"> </td>    -->
          
             <td>
                 <button onclick="location.href='vacancy_update.php?edit=<?php echo $row['Id']; ?>'" class="btn btn-warning" >Edit</button>

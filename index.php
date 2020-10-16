@@ -445,7 +445,7 @@ th {
                         <div class="thumb">
                             <img src="Logos/boc.png" alt="" style="width: 50px; height:50px;">
                         </div>
-                        <a href="All_vacancy.php"><h3>Bank Of Ceylon</h3></a>
+                        <a href="boc.php"><h3>Bank Of Ceylon</h3></a>
                         <p> <span>5</span> Available position</p>
                     </div>
                 </div>
@@ -455,7 +455,7 @@ th {
                         <img src="Logos/ifs.webp" alt="" style="width: 50px; height:50px;">
                         </div>
                        
-                        <a href="All_vacancy.php"><h3>IFS</h3></a>
+                        <a href="ifs.php"><h3>IFS</h3></a>
                         <p> <span>10</span> Available position</p>
                     </div>
                 </div>
@@ -464,7 +464,7 @@ th {
                         <div class="thumb">
                         <img src="Logos/mass.webp" alt="" style="width: 50px; height:50px;">
                         </div>
-                        <a href="All_vacancy.php"><h3>Mass Holdings</h3></a>
+                        <a href="mas.php"><h3>Mass Holdings</h3></a>
                         <p> <span>30</span> Available position</p>
                     </div>
                 </div>
@@ -474,7 +474,7 @@ th {
 
                        <img src="Logos/seylan.jpg" alt="" style="width: 50px; height:50px;">
                         </div>
-                        <a href="All_vacancy.php"><h3>Seylan Bank</h3></a>
+                        <a href="seylan.php"><h3>Seylan Bank</h3></a>
                         <p> <span>7</span> Available position</p>
                     </div>
                 </div>
