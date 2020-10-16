@@ -7,8 +7,14 @@
 </head>
 <body>
 
-<h2 style="text-align:center">Headhunter Team</h2>
 
+
+
+
+
+
+<h2 style="text-align:center">Headhunter Team</h2>
+<br>
 <div class="card">
   <img src="css/Headhunter_CSS/team2.jpg" alt="John" style="width:100%">
   <h1>Sudheera</h1>
