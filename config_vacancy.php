@@ -48,9 +48,24 @@ if (isset($_POST['save'])) {
         $Position = $_POST['Position'];
         $Opendate = $_POST['Opendate'];
         $Closedate = $_POST['Closedate'];
-        $Advertisement = $_POST['Advertisement'];
+       // $Advertisement = $_POST['Advertisement'];
+
+
+
+        $v1 = rand(1111,9999);
+        $v2 = rand(1111,9999);
+        $v3 = $v1.$v2;
+        $fnm =$_FILES["Advertisement"]["name"];  
+        $dst ="./company_logos/".$v3.$fnm;
+        $img_one ="company_logos/".$v3.$fnm;  //varible for quary    
+        move_uploaded_file($_FILES["Advertisement"]["tmp_name"],$dst);
+       
+
+
+        
+
     
-        mysqli_query($db, "UPDATE vacancy_ad SET Position='$Position', Closedate='$Closedate', Advertisement='$Advertisement' WHERE Id=$Id");
+        mysqli_query($db, "UPDATE vacancy_ad SET Position='$Position', Closedate='$Closedate', Advertisement='$img_one' WHERE Id=$Id");
         $_SESSION['message1'] = "Updated Successfully!"; 
         header('location: vacancy_details.php');
     }
