@@ -108,11 +108,11 @@ th {
                                     </div>
                                     <!--end of col-->
                                     <div class="col">
-                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter Your job here">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter Your job here" >
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
-                                    <a href="Apply_job.php" class="boxed-btn3">Search</a>
+                                    <a href="category_view_all.php" class="boxed-btn3">Search</a>
                                     </div>
                                     <!--end of col-->
                                 </div>
@@ -135,7 +135,7 @@ th {
             <div class="row">
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Information Technology</h4></a>
+                        <a href="category_view_it.php"><h4>Information Technology</h4></a>
                         <p> <span>20</span> Available position</p>
                     </div>
                 </div>
@@ -143,43 +143,48 @@ th {
                 
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Banking / Insurance</h4></a>
+                        <a href="category_view_bank.php"><h4>Banking / Insurance</h4></a>
                         <p> <span>10</span> Available position</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Accounting / Finance</h4></a>
+                        <a href="category_view_account.php"><h4>Accounting / Finance</h4></a>
                         <p> <span>5</span> Available position</p>
                     </div>
                 </div>
+
+
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>HR / Training</h4></a>
+                        <a href="category_view_hr.php"><h4>HR / Training</h4></a>
                         <p> <span>25</span> Available position</p>
                     </div>
                 </div>
+
+
+                
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Hardware / Networking</h4></a>
+                        <a href="category_view_hardware.php"><h4>Hardware / Networking</h4></a>
                         <p> <span>10</span> Available position</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Security</h4></a>
+                        <a href="category_view_security.php"><h4>Security</h4></a>
                         <p> <span>20</span> Available position</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Sales / Marketing</h4></a>
+                        <a href="category_view_sales.php"><h4>Sales / Marketing</h4></a>
                         <p> <span>8</span> Available position</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
-                        <a href="All_vacancy.php"><h4>Garments / Textile</h4></a>
+                        <a href="category_view_garment.php"><h4>Garments / Textile</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
                 </div>
@@ -215,14 +220,12 @@ th {
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="section_title">
-                        <h3>Top Jobs</h3>
+                    <div class="section_title" >
+                        <h3 >Top Jobs</h3>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="brouse_job text-right">
-                        <a href="All_vacancy.php" class="boxed-btn4">Browse More Job</a>
-                    </div>
+                  
                 </div>
             </div>
             <div class="job_lists">
@@ -249,11 +252,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                   
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -281,11 +284,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                  
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -312,11 +315,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                             
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -342,11 +345,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                               
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -372,11 +375,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                   
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -403,11 +406,11 @@ th {
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                           
                                     <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Closing Date 13 Nov2020</p>
                                 </div>
                             </div>
                         </div>
@@ -433,9 +436,7 @@ th {
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="brouse_job text-right">
-                        <a href="All_vacancy.php" class="boxed-btn4">Browse More Job</a>
-                    </div>
+                    
                 </div>
             </div>
             <div class="row">
