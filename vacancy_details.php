@@ -86,7 +86,11 @@
             <td><?php echo $row['Position']; ?></td>
             <td><?php echo $row['Opendate']; ?></td>
             <td><?php echo $row['Closedate']; ?></td>
-           <td><img src="<?php echo 'images/ad1.png' ?>" width="80" height="80" alt="Processing"></td>
+           <td><img src="<?php echo $row['Advertisement']; ?>" width="80" height="80" alt="Processing"></td>
+
+      
+            
+
          <!--   <td> <img src="<?php echo 'images/ad1.png' ?>" width="80" height="80" alt="Processing"> </td>-->
          <!-- <td><img src="upload/<?php echo $row['Id']; ?>" width="80" height="80" alt="Processing"> </td>    -->
        <!--  <td><img src='./vacancy_advertisements/ $row['Advertisement']; ?>" width="80" height="80" alt="Processing"> </td>    -->
