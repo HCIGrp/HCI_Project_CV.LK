@@ -10,116 +10,117 @@
 </head>
 <body>
 
+<?php  include 'header.php';?>
+
 <div class="search">
 <form class="search" action="government_jobs.php" >
              <input type="text" id="myInput" onkeyup="myFunction()" placeholder="   Search.." name="search2"  class="fa fa-search" >        
             </form>
 </div>
 
-<h2 style="text-align:center">Our Team</h2>
-
-<table>
+<h2 style="text-align:center">Government Vacancies</h2>
 
 
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="css\government_jobsCSS/project-manager.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-      <h2>Project Manager</h2>
-        <p class="title">Eastern University</p>
-        <p>Open Date - 09/10/2020</p>
-        <p>Closing Date - 16/10/2020</p>
-        <p><button class="button">Apply</button></p>
-      </div>
+
+
+
+<table class="table2" id="myTable">
+
+
+<tr>
+                <th></th>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Opening Date</th>
+                <th>Closing Date</th>
+                <th></th>
+
+
+            </tr>
+
+
+        <tr>
+            <div class="column"> 
+            <div class="card">
+                <div class="container">
+                     <td><img src="css\government_jobsCSS/library1.jpg" alt="Jane" style="width:100%" ></td> 
+                    <td>Central Environmental Authority</td>
+                    <td>Librarian</td>
+                    <td>19/10/2020</td>
+                    <td>18/11/2020</td>
+                    <td><a href='apply_job.php'><button class="button">Apply</button></a></td></div>
+                </div>
+            </div>
+            </div>
+         </tr>
+           
+
+         <tr>
+
+<div class="column"> 
+<div class="card">
+    <div class="container">
+         <td><img src="css\government_jobsCSS/projectmanager1.jpg" alt="Jane" style="width:100%"></td> 
+        <td>Eastern University</td>
+        <td>Project manager</td>
+        <td>08/10/2020</td>
+        <td>07/11/2020</td>
+        <td><a href='apply_job.php'><button class="button">Apply</button></a></td></div>
     </div>
-  </div>
- 
-
-
-
-
-
-  <div class="column">
-    <div class="card">
-      <img src="css\government_jobsCSS/librarian - Copy.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Librarian</h2>
-        <p class="title">Central Environmental Authority</p>
-        <p>Open Date - 09/10/2020</p>
-        <p>Closing Date - 16/10/2020</p>
-        <p><button class="button">Apply</button></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="css\government_jobsCSS/Analyst.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>Analyst Programmer</h2>
-        <p class="title">Lanka Electricity Company</p>
-        <p>Open Date - 19/10/2020</p>
-        <p>Closing Date - 29/10/2020</p>
-        <p><button class="button">Apply</button></p>
-      </div>
-    </div>
-  </div>
 </div>
-
-
-
-
-
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  
-
-  <tr>
-      <td>
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
 </div>
-</td>
 </tr>
 
-</table>
+<tr>
 
+<div class="column"> 
+<div class="card">
+    <div class="container">
+         <td><img src="css\government_jobsCSS/Analyst1.jpg" alt="Jane" style="width:100%"></td> 
+        <td>Lanka Electricity Company</td>
+        <td>Analyst Programmer</td>
+        <td>02/10/2020</td>
+        <td>01/11/2020</td>
+        <td><a href='apply_job.php'><button class="button">Apply</button></a></td></div>
+    </div>
+</div>
+</div>
+</tr>
+
+<tr>
+
+<div class="column"> 
+<div class="card">
+    <div class="container">
+         <td><img src="css\government_jobsCSS/civil-engineering.jpg" alt="Jane" style="width:100%"></td> 
+        <td>Ministry of Agriculture</td>
+        <td>Senior Enginer (PS3)</td>
+        <td>01/10/2020</td>
+        <td>01/11/2020</td>
+        <td><a href='apply_job.php'><button class="button">Apply</button></a></td></div>
+    </div>
+</div>
+</div>
+</tr>
+
+<tr>
+
+<div class="column"> 
+<div class="card">
+    <div class="container">
+         <td><img src="css\government_jobsCSS/it officer.jpg" alt="Jane" style="width:100%"></td> 
+        <td>Ministry of Finance</td>
+        <td>ICT Officer</td>
+        <td>28/09/2020</td>
+        <td>27/10/2020</td>
+        <td><a href='apply_job.php'><button class="button">Apply</button></a></td></div>
+    </div>
+</div>
+</div>
+</tr>
+
+            
+</table>
 
 
 <script>
@@ -145,6 +146,7 @@
 
 
 </body>
+<?php include('footer1.php'); ?>
 </html>
 
 

@@ -14,15 +14,27 @@
     <script type='text/javascript' src="js/back_2top.js"></script>   
 
 
+    <script>
+             function goBack() {
+                window.history.back();
+            }
+    </script>
+
 </head>
 <?php  include 'header.php';?>
+<<<<<<< HEAD
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
   <body>
+=======
+<?php include('feedback-btn.php'); ?>
+<body class="bg-image" style="background-image: url('images/bg-01.jpg');">
+>>>>>>> 1d4dc03e532900adbebda76634124867493af034
 
 
-<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');">
+<div class="container-fluid" >
+<div class="row2">
 <div class="row">
         <div class="col-sm-12" id="col_2">
             <div class="card text-center" id="card_2" >
@@ -45,7 +57,7 @@
         
 
     
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"></p>
         
             <a href="apply_job_form.php" class="btn btn-primary">Apply</a>
  
@@ -68,10 +80,9 @@
                  <span class="input-group-btn" >
                      <a href="apply_job_form.php" type="butoon" class="btn btn-outline-primary">Apply</a>
                      <a href="#" type="butoon" class="btn btn-outline-dark" onclick="window.print()">Print</a>
-                     <a href="Forieng_vacancy.php" type="butoon" class="btn btn-warning">Close</a>
+                     <a href="#" onclick="goBack()" type="butoon" class="btn btn-warning">Close</a>
                  </span>
-                 
-              
+
               </div>
           
             </div>
@@ -79,14 +90,14 @@
         </div>
         
     </div>
-
-
-    <?php include('footer1.php'); ?>
+    </div>
 
 </div>
-<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#d3d3d3' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 </body>
+
+<?php include('footer1.php'); ?>
 
 
 </html>

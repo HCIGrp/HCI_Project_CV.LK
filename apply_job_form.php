@@ -17,13 +17,19 @@
 
 </head>
 <?php  include 'header.php';?>
+<<<<<<< HEAD
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
 <body>
+=======
+<?php include('feedback-btn.php'); ?>
+
+<body class="bg-image" style="background-image: url('images/bg-01.jpg');">
+>>>>>>> 1d4dc03e532900adbebda76634124867493af034
 
 
-<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');">
+<div class="container-fluid">
     <div class="row">
     <div class="col-sm-12" id="col_2">
             <div class="card text-center" >
@@ -93,12 +99,11 @@
         </div>
     </div>
 
-    
-<?php include('footer1.php'); ?>
-
 </div>
-<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color: #d3d3d3;' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 </body>
+
+<?php include('footer1.php'); ?>
 
 </html>

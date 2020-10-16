@@ -18,15 +18,26 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+<<<<<<< HEAD
 <?php  include 'header.php';?>
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
   <body>
+=======
+<?php  include('header.php');?>
+<?php include('feedback-btn.php'); ?>
+<body>
+<div class="bg-imagee" style="background-image: url('images/bge.jpg');"> 
+</div>
+>>>>>>> 1d4dc03e532900adbebda76634124867493af034
 
+<div class="content">
+    <h1>Forieng Vacancy</h1>
+  </div>
 
-
-    <div class="container-fluid bg-image"  style="background-image: url('images/bg-01.jpg');">
+    <div class="bg-image" style="background-image: url('images/bg-01.jpg');">
+    <div class="container-fluid">
     <hr>
         <div class="row">
             <div class="col-sm-12">
@@ -345,10 +356,10 @@
             </div>
         </div>
     </div>
-    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#d3d3d3' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 
-
+    </div>
 </body>
 
 <?php include('footer1.php'); ?>
