@@ -2,7 +2,7 @@
 	$server ="localhost:3306";
 	$user_name = "root";
 	$password = "";
-	$database ="hci_ui/ux";
+	$database ="hci";
 
 
 	$conn = new mysqli($server,$user_name,$password,$database);

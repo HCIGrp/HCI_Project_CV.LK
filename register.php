@@ -271,6 +271,7 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 
 
                           <div class="form-group">
+                          <label for="position">Company Logo</label>
                           <input type="file" name ="logo" class="form-control-file upload" Required >
                           </div>
                

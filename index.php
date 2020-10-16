@@ -55,6 +55,20 @@ th {
 
 
 
+
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
 </style>
 
 
@@ -79,6 +93,34 @@ th {
 	
 	
         <div class="container-fluid">
+
+
+
+
+        <!-- ================================================SEARCH BAR===============================-->
+
+<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter Your job here">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                    <a href="Apply_job.php" class="boxed-btn3">Search</a>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+</div>
+<!-- ================================================SEARCH BAR===============================-->
 		
 		
             <div class="row">
@@ -151,6 +193,23 @@ th {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- job_listing_area_start  -->
         <div class="job_listing_area">
         <div class="container">
@@ -168,43 +227,16 @@ th {
             </div>
             <div class="job_lists">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+
+                <div class="col-lg-12 col-md-12">
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
                                 <div class="thumb">
-                                    <img src="img/svg_icon/1.svg" alt="">
-                                </div>
-                                <div class="jobs_conetent">
-                                    <a href="Apply_job.php"><h4>Software Engineer</h4></a>
-                                    <div class="links_locat d-flex align-items-center">
-                                        <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
-                                        </div>
-                                        <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Full-time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jobs_right">
-                                <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
-                                </div>
-                                <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="single_jobs white-bg d-flex justify-content-between">
-                            <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="img/svg_icon/2.svg" alt="">
+                                <img src="Logos/lb.png" alt="" style="width: 50px; height:50px;">
                                 </div>
                                 <div class="jobs_conetent">
                                     <a href="Apply_job.php"><h4>Manager</h4></a>
+                                    <h5>LB Finance PVT(LTD)</h5>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
@@ -226,14 +258,48 @@ th {
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-lg-12 col-md-12">
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
                                 <div class="thumb">
-                                    <img src="img/svg_icon/3.svg" alt="">
+                                <img src="Logos/codegen.png" alt="" style="width: 50px; height:50px;">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="Apply_job.php"><h4>Software Engineer</h4></a>
+                                    <h5>CodeGen PVT(LTD)</h5>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Full-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="Apply_job.php" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                <img src="Logos/ifs.webp" alt="" style="width: 50px; height:50px;">
                                 </div>
                                 <div class="jobs_conetent">
                                     <a href="Apply_job.php"><h4>System Analyst</h4></a>
+                                    <h5>IFS PVT(LTD)</h5>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
@@ -259,16 +325,17 @@ th {
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
                                 <div class="thumb">
-                                    <img src="img/svg_icon/4.svg" alt="">
+                                <img src="Logos/virtusa.jpg" alt="" style="width: 50px; height:50px;">
                                 </div>
                                 <div class="jobs_conetent">
-                                    <a href="Apply_job.php"><h4>Graphic Designer</h4></a>
+                                    <a href="Apply_job.php"><h4>Mobile App Developer</h4></a>
+                                    <h5>Virtusa PVT(LTD)</h5>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> Colombo, USA</p>
+                                            <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
                                         </div>
                                         <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                            <p> <i class="fa fa-clock-o"></i> Full-time</p>
                                         </div>
                                     </div>
                                 </div>
@@ -288,10 +355,11 @@ th {
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
                                 <div class="thumb">
-                                    <img src="img/svg_icon/5.svg" alt="">
+                                <img src="Logos/sliit.jpg" alt="" style="width: 50px; height:50px;">
                                 </div>
                                 <div class="jobs_conetent">
                                     <a href="Apply_job.php"><h4>Lecture</h4></a>
+                                    <h5>Sri Lanka Institue Of Information Technology</h5>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
@@ -317,10 +385,12 @@ th {
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
                                 <div class="thumb">
-                                    <img src="img/svg_icon/1.svg" alt="">
+                                <img src="Logos/sampath.png" alt="" style="width: 50px; height:50px;">
+                                
                                 </div>
                                 <div class="jobs_conetent">
                                     <a href="Apply_job.php"><h4>Accountat</h4></a>
+                                    <h5>Sampath Bank PVT(LTD)</h5>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i> Colombo, Sri Lanka</p>
@@ -372,7 +442,7 @@ th {
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_company">
                         <div class="thumb">
-                            <img src="img/svg_icon/5.svg" alt="">
+                            <img src="Logos/boc.png" alt="" style="width: 50px; height:50px;">
                         </div>
                         <a href="All_vacancy.php"><h3>Bank Of Ceylon</h3></a>
                         <p> <span>5</span> Available position</p>
@@ -381,8 +451,9 @@ th {
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_company">
                         <div class="thumb">
-                            <img src="img/svg_icon/4.svg" alt="">
+                        <img src="Logos/ifs.webp" alt="" style="width: 50px; height:50px;">
                         </div>
+                       
                         <a href="All_vacancy.php"><h3>IFS</h3></a>
                         <p> <span>10</span> Available position</p>
                     </div>
@@ -390,7 +461,7 @@ th {
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_company">
                         <div class="thumb">
-                            <img src="img/svg_icon/3.svg" alt="">
+                        <img src="Logos/mass.webp" alt="" style="width: 50px; height:50px;">
                         </div>
                         <a href="All_vacancy.php"><h3>Mass Holdings</h3></a>
                         <p> <span>30</span> Available position</p>
@@ -399,7 +470,8 @@ th {
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_company">
                         <div class="thumb">
-                            <img src="img/svg_icon/1.svg" alt="">
+
+                       <img src="Logos/seylan.jpg" alt="" style="width: 50px; height:50px;">
                         </div>
                         <a href="All_vacancy.php"><h3>Seylan Bank</h3></a>
                         <p> <span>7</span> Available position</p>
