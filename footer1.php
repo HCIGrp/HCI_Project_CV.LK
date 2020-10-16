@@ -38,7 +38,7 @@
 					<br>
 					<a href="All_vacancy.php">Vacancy</a>
                     <br>
-					<a href="#">About</a>
+					<a href="about_us.php">About</a>
 					<br>
 					<a href="contact_us.php">Contact</a>
 					
