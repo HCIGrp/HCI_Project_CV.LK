@@ -16,23 +16,15 @@
 
 </head>
 <?php  include 'header.php';?>
-<<<<<<< HEAD
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
-  
-<div class="container-fluid bg-image" style="background-image: url('images/bg-01.jpg');" >
-    <div class="row">
-=======
-<?php include('feedback-btn.php'); ?>
-
 
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');" >
 
 <div class="container-fluid">
     <div class="row" id="row1">
         <!--
->>>>>>> 1d4dc03e532900adbebda76634124867493af034
         <div class="col-sm-12" >
             <div class="card" id="card1">
                 <img class="card-img" src="image/download.png" alt="Card image">
@@ -42,8 +34,6 @@
     <div class="row">
         <div class="col-sm-12">
         <div class="card text-center" id="card2" >
-
-
         <div class="card-body">
                     <h5 class="card-title">Contact Us</h5>
                     <hr>
@@ -61,12 +51,9 @@
                         <br> Queen Marry Road,
                         <br> Gampaha 
                     
-
 </div>
-
 </div>
         </div>
-
 -->
 <div class="header1"> 
    <h2> GET IN TOUCH</h2>       
