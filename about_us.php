@@ -9,7 +9,7 @@
 <body>
 
 <?php  include 'header.php';?>
-
+<!-- <div class="bg-image" style="background-image: url('images/bg-01.jpg');"> -->
 <!-- <div class="about-section">
   <h1>About Us Page</h1>
   <p>At Jobfind, we deliver life changing opportunities for individuals and committed workers for employers. Our highly dedicated staff and exceptional service motto reflects our commitment to quality for more than 20 years, two decades of experience helping the hardest to help back into work.</p>

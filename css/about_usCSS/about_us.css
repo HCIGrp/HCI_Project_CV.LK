@@ -4,6 +4,12 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    color: cornsilk ;
+  }
+  .bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   .title {

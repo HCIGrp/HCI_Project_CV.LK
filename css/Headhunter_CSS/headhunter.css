@@ -16,6 +16,11 @@
 .rating img {
     width: 40px;
 }
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
   
   button {
     border: none;

@@ -14,6 +14,11 @@
     align-items: center;
     height: 100vh;
   }
+  .bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
   input[type=text], input[type=password] {
     width: 100%;
