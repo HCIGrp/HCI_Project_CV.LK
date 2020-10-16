@@ -11,6 +11,9 @@
 <body>
 
 <?php  include 'header.php';?>
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <div class="search">
 <form class="search" action="government_jobs.php" >

@@ -146,14 +146,15 @@ form.example::after {
 </head>
 <?php include('header.php'); ?>
 <body>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
  <!--Blur background-->
   <!--  <br><br> -->
  <div class="bg-imagee"></div>
 
  <div class="content">
-    <h1>Best Job opportunities by One Click</h1>
+    <h1>All in One Click</h1>
   </div>
  <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
 
@@ -1608,6 +1609,17 @@ form.example::after {
   <tbody>
   <tr>
     <td>35978</td>
+    <td>Company Name Withheld</td>
+    <td>Attorney-at-Law - Associate in Conveyancing</td>
+    <td>12/09/2020</td>
+    <td>11/10/2020</td>
+    <td><button type="button" onclick="location.href='Apply_job.php'" class="btn btn-primary"><i class="far fa-eye"></i></button></td>
+
+
+  </tr>
+
+  <tr>
+    <td>35979</td>
     <td>Hitachi Digital Payment Solutions Ltd</td>
     <td>Junior Legal Officer</td>
     <td>11/09/2020</td>
@@ -1616,6 +1628,7 @@ form.example::after {
 
 
   </tr>
+
   <tr style="border-bottom: 1px solid #FFFFFF">
     <td>35980</td>
     <td>Company Name withheld</td>
@@ -1746,8 +1759,29 @@ form.example::after {
 
 </thead>
   <tbody>
-  <tr style="border-bottom: 1px solid #FFFFFF">
+
+  <tr>
+    <td>35996</td>
+    <td>Manpower Sri Lanka</td>
+    <td>Aircraft Cleaning Services Agents - Saudi Arabia (5)</td>
+    <td>23/09/2020</td>
+    <td>22/10/2020</td>
+    <td><button type="button" onclick="location.href='Apply_job.php'" class="btn btn-primary"><i class="far fa-eye"></i></button></td>
+
+  </tr>
+
+  <tr>
     <td>35997</td>
+    <td>Manpower Sri Lanka</td>
+    <td>Lead Crew Car Drivers - Saudi Arabia (5)</td>
+    <td>22/09/2020</td>
+    <td>21/10/2020</td>
+    <td><button type="button" onclick="location.href='Apply_job.php'" class="btn btn-primary"><i class="far fa-eye"></i></button></td>
+
+  </tr>
+
+  <tr style="border-bottom: 1px solid #FFFFFF">
+    <td>35998</td>
     <td>Company Name withheld</td>
     <td>Shipping Documentation Executive</td>
     <td>21/09/2020</td>
@@ -2217,6 +2251,18 @@ form.example::after {
 
 
   </tr>
+
+  <tr>
+    <td>35679</td>
+    <td>Maritime International Limited</td>
+    <td>ASST. BRAND MANAGER (MALE / FEMALE) (2)</td>
+    <td>14/07/2020</td>
+    <td>27/10/2020</td>
+    <td><button type="button" onclick="location.href='Apply_job.php'" class="btn btn-primary"><i class="far fa-eye"></i></button></td>
+
+
+  </tr>
+
   <tr style="border-bottom: 1px solid #FFFFFF">
     <td>35678</td>
     <td>Visual Studio Plus</td>
