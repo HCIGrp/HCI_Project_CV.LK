@@ -24,11 +24,21 @@ if (isset($_POST['save'])) {
 		$Company = $_POST['Company'];
 		$Position = $_POST['Position'];
 		$Opendate = $_POST['Opendate'];
-		$Closedate = $_POST['Closedate'];
-        $Advertisement = $_POST['Advertisement'];
+        $Closedate = $_POST['Closedate'];
+        
+
+        //Image one Upload
+        $v1 = rand(1111,9999);
+        $v2 = rand(1111,9999);
+        $v3 = $v1.$v2;
+        $fnm =$_FILES["ad_img"]["name"];  
+        $dst ="./vacancy_advertisements/".$v3.$fnm;
+        $img_ad ="vacancy_advertisements/".$v3.$fnm;  //variable for query    
+        move_uploaded_file($_FILES["ad_img"]["tmp_name"],$dst);
+
 
         mysqli_query($db, "INSERT INTO vacancy_ad (Company, Position, Opendate, Closedate, Advertisement)"
-        . "VALUES ('ABC (Pvt) Ltd', '$Position', curdate(), '$Closedate', '$Advertisement')");
+        . "VALUES ('ABC (Pvt) Ltd', '$Position', curdate(), '$Closedate', '$img_ad')");
         $_SESSION['message'] = "Published Successfully";
         header('location: vacancy_details.php');
     }

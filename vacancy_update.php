@@ -81,8 +81,9 @@
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php include('header.php'); ?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">
@@ -124,7 +125,7 @@
 
 <div class="form-group"> 
    <label for="img">Advertisement</label>
-   <input type="file" name="Advertisement" class="form-control" Id="Advertisement" accept="image/x-png,image/jpeg">
+   <input type="file" name="Advertisement" class="form-control" Id="Advertisement" value="<?php echo $img_ad; ?>" accept="image/x-png,image/jpeg">
    <!-- <input type="file" name="fileToUpload" id="fileToUpload" >  -->
    <!-- <input type="submit" value="Upload Image" name="submit">    -->
     

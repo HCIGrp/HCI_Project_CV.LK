@@ -149,8 +149,9 @@
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php include('header.php'); ?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 <!-- $date = DateTime::createFromFormat('d/m/Y', date);  -->
 <div class="container mt-5">
         <div class="card" style="border: 1px solid #4115bb">
@@ -192,7 +193,7 @@
                 -->
                     <div class="form-group">
                         <label for="img">Advertisement</label>
-                            <input type="file" name="Advertisement" class="form-control" data-error="You must select vacancy advertisement image." Id="Advertisement" accept="image/x-png,image/jpeg" required>
+                            <input type="file" name="ad_img" onChange="displayImage(this)" class="form-control" data-error="You must select vacancy advertisement image." id="ad_img" accept="image/x-png,image/jpeg" required>
 
                         <!-- Error -->
                         <div class="help-block with-errors"></div>

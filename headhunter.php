@@ -3,7 +3,6 @@
 <head>
 <title>Headhunter Team</title>
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
-<?php  include 'header.php';?>
 </head>
 <body>
 <<<<<<< HEAD
@@ -13,10 +12,15 @@
   <?php } ?> 
 =======
 
->>>>>>> 99f4a5399d3ad3f2ccfee86cb0af08b8de41dcf0
+>>>>>>> e8e1af0c9b4da5472f09d1ee30f19749fdf2f68b
+
+
+
+
+
 
 <h2 style="text-align:center">Headhunter Team</h2>
-
+<br>
 <div class="card">
   <img src="css/Headhunter_CSS/team2.jpg" alt="John" style="width:100%">
   <h1>Sudheera</h1>
