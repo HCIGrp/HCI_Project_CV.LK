@@ -12,7 +12,7 @@
 
 <?php  include 'header.php';?>
 
-<!-- <div class="bg-image" style="background-image: url('images/bg-01.jpg');"> -->
+<div class="bg-image" style="background-image: url('images/bg-01.jpg');">
 
 <h2 style="text-align:center">Government Vacancies</h2>
 <br>

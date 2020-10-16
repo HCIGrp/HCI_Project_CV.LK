@@ -9,6 +9,8 @@
 <?php include('header.php'); ?>
 <body>
 
+<div class="bg-image" style="background-image: url('images/bg-01.jpg');">
+
 
 <div class="rate-body">
 <span class="heading">User Rating</span>

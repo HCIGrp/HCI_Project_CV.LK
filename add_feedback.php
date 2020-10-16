@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/Feedback_CSS/add_feedback.css" />
     <?php  include 'header.php';?>
   </head>
+
+  <div class="bg-image" style="background-image: url('images/bg-01.jpg');">
   <body onload='document.form1.email.focus()'>
 <br>
 <br>
-<!-- Design by Ildiesign - https://dribbble.com/shots/7292664-Survey-UI-Design -->
-    <!-- Icons by - https://www.flaticon.com/authors/roundicons -->
+
     <div id="panel" class="panel-container">
       <strong
         >How satisfied are you with our<br />
