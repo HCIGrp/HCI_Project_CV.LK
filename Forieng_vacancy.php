@@ -18,19 +18,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<<<<<<< HEAD
-<?php  include 'header.php';?>
+<?php  include('header.php');?>
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
   <body>
-=======
-<?php  include('header.php');?>
-<?php include('feedback-btn.php'); ?>
-<body>
 <div class="bg-imagee" style="background-image: url('images/bge.jpg');"> 
 </div>
->>>>>>> 1d4dc03e532900adbebda76634124867493af034
 
 <div class="content">
     <h1>Forieng Vacancy</h1>
