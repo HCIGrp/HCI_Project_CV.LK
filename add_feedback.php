@@ -1,19 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Feedback</title>
+    <link rel="stylesheet" href="css/Feedback_CSS/add_feedback.css" />
+    <?php  include 'header.php';?>
+  </head>
+  <body>
+<br>
+<br>
+<!-- Design by Ildiesign - https://dribbble.com/shots/7292664-Survey-UI-Design -->
+    <!-- Icons by - https://www.flaticon.com/authors/roundicons -->
+    <div id="panel" class="panel-container">
+      <strong
+        >How satisfied are you with our<br />
+        customer support performance?</strong
+      ><br>
+
+
+      
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+
+
+      <div class="ratings-container">
+
+        <div class="rating">
+        <img class="angry" src="image/Feedback_images/Angry.png" alt=""/>
+          <small>Unhappy</small>
+        </div>
+
+        <div class="rating">
+        <img class="sad" src="image/Feedback_images/Sad.png" alt=""/>
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating ">
+        <img class="neutral" src="image/Feedback_images/Neutral.png" alt=""/>
+          <small>Satisfied</small>
+        </div>
+
+        <div class="rating ">
+        <img class="happy" src="image/Feedback_images/Happy.png" alt=""/>
+          <small>Satisfied</small>
+        </div>
+
+        <div class="rating ">
+        <img class="love" src="image/Feedback_images/Love.png" alt=""/>
+          <small>Satisfied</small>
+        </div>
+
+
+      </div>
+      <!-- <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea> -->
+      <!-- <label for="review">Review</label> -->
+      <input type="text" placeholder="Write your comments.." name="review" style="height:100px" required>
+      <br>
+      <button class="btn" id="send">Send review</button>
+    </div>
+  </body>
+
+
+  <script >
+      const ratingsEl = document.querySelectorAll(".rating");
+const sendBtn = document.querySelector("#send");
+const panel = document.querySelector("#panel");
+
+ratingsEl.forEach((el) => {
+  el.addEventListener("click", () => {
+    ratingsEl.forEach((innerEl) => {
+      innerEl.classList.remove("active");
+    });
+
+    el.classList.add("active");
+  });
+});
+
+sendBtn.addEventListener("click", () => {
+  panel.innerHTML = `
+		<i class="fas fa-heart"></i>
+		<strong>Thank you!</strong>
+		<p>We'll use your feedback to improve our performance.</p>
+		<a href='feedback.php'><button class="btn">Done</button></a>
+	`;
+});
+
+
+  </script>
+  <?php include('footer1.php'); ?>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Add Feedback</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/Feedback_CSS/add_feedback.css" />
+
 </head>
 
 <body>
+<div>
+
     <div id="panel" class="panel-container">
     <strong>GIVE US FEEDBACK</strong>
     <br>
@@ -57,5 +164,8 @@
         <button class="btn" id="send">SEND</button>
 
     </div>
+
+</div>
 </body>
-</html>
+
+</html> -->

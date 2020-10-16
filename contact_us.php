@@ -55,7 +55,7 @@
 </div>
         </div>
 -->
-<div class="header1"> 
+<div class="header1">
    <h2> GET IN TOUCH</h2>       
    </div>
 <div class="card-group text-center">

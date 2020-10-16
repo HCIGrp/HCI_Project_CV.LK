@@ -3,12 +3,17 @@
 <head>
 <title>Headhunter Team</title>
 <link rel="stylesheet" href="css/Headhunter_CSS/headhunter.css" />
+<?php  include 'header.php';?>
 </head>
 <body>
+<<<<<<< HEAD
 <?php  include 'header.php';?>
 <?php if(! empty($_SESSION)) {?>
     <?php include('feedback-btn.php'); ?>
   <?php } ?> 
+=======
+
+>>>>>>> 99f4a5399d3ad3f2ccfee86cb0af08b8de41dcf0
 
 <h2 style="text-align:center">Headhunter Team</h2>
 
