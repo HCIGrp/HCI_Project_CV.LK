@@ -29,10 +29,10 @@ border-radius:20px;
 */
 
 .card {
-    left: 3%;
-    width: 90%;
+    left: 19%;
+    width: 62%;
     margin: 20px;
-    background-color: #f0f0f0d5;
+    background-color: white;
     border: 1.5px solid #000080;
     border-radius: 6px;
 }
@@ -44,12 +44,12 @@ border-radius:20px;
 }
 
 .card1{
-    margin-left: 13%;
+    margin-left: 54%;
     margin-top: 20px;
     margin-bottom:20px;
-    width: 225%;
-    padding: 12px;
-    background-color: #f0f0f0d5;
+    width: 155%;
+    padding: 22px;
+    background-color: white;
     border: 1.5px solid #000080;
     border-radius: 6px;
 }

@@ -108,7 +108,7 @@
 </div>
     </div>
 
-    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#d3d3d3' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
   
 
 

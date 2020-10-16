@@ -20,8 +20,16 @@
 </head>
 <?php  include('header.php');?>
 <?php include('feedback-btn.php'); ?>
-<body class="bg-image" style="background-image: url('images/bg-01.jpg');">
-    <div class="container-fluid"  >
+<body>
+<div class="bg-imagee" style="background-image: url('images/bge.jpg');"> 
+</div>
+
+<div class="content">
+    <h1>Forieng Vacancy</h1>
+  </div>
+
+    <div class="bg-image" style="background-image: url('images/bg-01.jpg');">
+    <div class="container-fluid">
     <hr>
         <div class="row">
             <div class="col-sm-12">
@@ -340,10 +348,10 @@
             </div>
         </div>
     </div>
-    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#00FEDE' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" style='background-color:#d3d3d3' role="button"><i class="fas fa-chevron-up" style="color:black"></i></a>
 
 
-
+    </div>
 </body>
 
 <?php include('footer1.php'); ?>
