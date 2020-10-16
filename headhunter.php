@@ -6,6 +6,9 @@
 </head>
 <body>
 <?php  include 'header.php';?>
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <h2 style="text-align:center">Headhunter Team</h2>
 
