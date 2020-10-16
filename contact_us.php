@@ -16,8 +16,9 @@
 
 </head>
 <?php  include 'header.php';?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');" >
 
@@ -33,8 +34,6 @@
     <div class="row">
         <div class="col-sm-12">
         <div class="card text-center" id="card2" >
-
-
         <div class="card-body">
                     <h5 class="card-title">Contact Us</h5>
                     <hr>
@@ -52,12 +51,9 @@
                         <br> Queen Marry Road,
                         <br> Gampaha 
                     
-
 </div>
-
 </div>
         </div>
-
 -->
 <div class="header1">
    <h2> GET IN TOUCH</h2>       

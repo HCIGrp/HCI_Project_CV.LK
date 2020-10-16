@@ -1759,7 +1759,7 @@ h3 {
 }
 
 /* line 13, ../../Arafath/CL/December/235. Job board/HTML/scss/_testmonial.scss */
-.testimonial_area .single_testmonial .thumb {
+.testimonial_area .single_testmonial . {
   position: relative;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1773,6 +1773,7 @@ h3 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+ 
 }
 
 /* line 21, ../../Arafath/CL/December/235. Job board/HTML/scss/_testmonial.scss */

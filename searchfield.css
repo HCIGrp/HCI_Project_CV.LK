@@ -18,8 +18,7 @@ body {
 .container {
   position: absolute;
   margin: auto;
-  top: 170%;
-  /*180*/
+  top: 134%; /*180*/
   left: 0;
   right: 0;
   bottom: 0;

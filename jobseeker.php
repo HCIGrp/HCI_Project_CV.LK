@@ -79,7 +79,10 @@
 </head>
 <?php include('header.php'); ?>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
-<?php include('feedback-btn.php'); ?>
+
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 
 <div class="frame"></div>
 

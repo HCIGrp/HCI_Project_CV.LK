@@ -6,9 +6,9 @@
 
 <link rel="stylesheet" href="css/Feedback_CSS/feedback.css" />
 </head>
-
-<body>
 <?php include('header.php'); ?>
+<body>
+
 
 <div class="rate-body">
 <span class="heading">User Rating</span>
@@ -19,6 +19,9 @@
 <span class="fa fa-star"></span>
 <p>4.1 average based on 254 reviews.</p>
 <hr style="border:3px solid #f1f1f1">
+
+
+
 
 <div class="row">
   <div class="side">
@@ -77,11 +80,20 @@
     <div>20</div>
   </div>
 </div>
+<br>
+<br>
+<div class="fbtn">
+<a href='add_feedback.php'><button class="button" style="width:100%">Add Feedback</button></a>
 </div>
-
+</div>
+<br><br>
 
 
 <div class="timeline">
+
+
+
+
 <div class="container left">
     <div class="content">
     <div>Excellent</div>

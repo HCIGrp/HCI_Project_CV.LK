@@ -14,8 +14,9 @@
 </head>
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 <?php  include('header.php');?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
 <body> 
 </br>
 <p style="font-size: 20px; text-align: center; border-style: solid; background-color: #ebebe0;">Attract the perfect candidate for your vacancies through WWW.CV.lk .We offer the some of most competitive package on the web allowing you to post job.</p>

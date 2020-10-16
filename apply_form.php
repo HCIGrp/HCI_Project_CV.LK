@@ -18,8 +18,10 @@
 
 </head>
 <?php  include 'header.php';?>
-<?php include('feedback-btn.php'); ?>
-
+<?php if(! empty($_SESSION)) {?>
+    <?php include('feedback-btn.php'); ?>
+  <?php } ?> 
+  
 <body class="bg-image" style="background-image: url('images/bg-01.jpg');">
 
 
