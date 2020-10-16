@@ -81,21 +81,16 @@
           <button class="dropbtn2">Vacancies <i class="fa fa-caret-down"></i></button>
             <div class="dropdown2-content">
               <a href="All_vacancy.php">All Vacancies</a>
-              <a href="#">Government</a>
+              <a href="government_jobs.php">Government</a>
               <a href="Forieng_vacancy.php">Foreign</a>
             </div>
         </div>
 
   <?php if(! empty($_SESSION)) {?>
     <a href="vacancy_post.php">Post Vacancy</a>
-<<<<<<< HEAD
+  <?php } ?>  
     <a href="employers.php">Employers</a>
     <a href="promotions.php">Promotions</a>
-=======
-  <?php } ?>  
-    <a href="#">Employers</a>
-    <a href="#">Promotions</a>
->>>>>>> 664dd763766ee389721c5bfed0793d41db3b3098
     <a href="headhunter.php">Headhunter Team</a>
     <a href="contact_us.php">Contact</a>
    
